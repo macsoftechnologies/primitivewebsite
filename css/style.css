@@ -195,7 +195,7 @@ header {
 
 #site-navigation .menu > ul > li > a:hover,
 #site-navigation .menu > li > a:hover {
-  color: #1674D1;
+  color: rgb(255, 192, 0);
 }
 
 #site-navigation .menu > ul > li > a,
