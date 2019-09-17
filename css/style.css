@@ -61,7 +61,7 @@ p {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #999999;
+  color: #f6f1f1;
   margin-bottom: 1.5em;
 }
 
@@ -8216,9 +8216,9 @@ body footer a:hover {
 
 .content-head.style2 h2 {
   font-size: 15px;
-  color: #111111;
+  color: #ffd658;
   text-align: center;
-  letter-spacing: 1em;
+  /* letter-spacing: 1em; */
   font-weight: 400;
 }
 
@@ -8864,7 +8864,7 @@ Contact Form
 }
 
 .home-onepage-features h5 {
-  color: #fff;
+  color: #ffd658;
   margin: 0 0 12px;
 }
 
