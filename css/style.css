@@ -343,7 +343,7 @@ header {
 #site-navigation .sub-menu li a:hover,
 #site-navigation .children li a:hover,
 #site-navigation .menu li.mega-menu > .sub-menu .mega-menu-shop a:hover {
-  color: #1573D1;
+  color: #ffd658;
 }
 
 #site-navigation #primary-menu li .sub-menu li:first-child a {
@@ -2584,6 +2584,13 @@ footer.footer2 {
 
 .content-head p {
   font-size: 15px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.content-head1 p {
+  color: #ffd658;
+  font-size: 24px;
   line-height: 1.6em;
   margin: 0;
 }
