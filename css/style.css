@@ -1542,7 +1542,7 @@ footer.footer2 {
 
 .copyright .right {
   /* padding-top: 30px; */
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   text-align: right;
 }
 
@@ -10965,6 +10965,11 @@ a.eg-henryharrison-element-2 {
 }
 .vincent_social{
   display: flex;
+  justify-content: center;
+}
+.vincent_social li{
+  padding:5px;
+  font-size: 20px;
 }
 
 /* ==========================================================================
