@@ -61,7 +61,7 @@ p {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #f6f1f1;
+  color: #999999;
   margin-bottom: 1.5em;
 }
 
@@ -877,6 +877,10 @@ img.wp-post-image {
   margin-top: 31px;
 }
 
+.logo img {
+  height:42px;
+}
+
 .header01 .logo a {
   padding-top: 0;
   display: table;
@@ -1537,8 +1541,8 @@ footer.footer2 {
 }
 
 .copyright .right {
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: right;
 }
 
@@ -2582,15 +2586,13 @@ footer.footer2 {
   font-size: 50px;
 }
 
-.content-head p {
-  font-size: 15px;
-  line-height: 1.6em;
-  margin: 0;
+.content-data {
+  color:#ffd658;
+  font-size:16px;
 }
 
-.content-head1 p {
-  color: #ffd658;
-  font-size: 24px;
+.content-head p {
+  font-size: 15px;
   line-height: 1.6em;
   margin: 0;
 }
@@ -7374,6 +7376,7 @@ p.stars a.star-5:after {
 
 .polygon-text-box {
   position: relative;
+  text-align: justify;
 }
 
 .polygon-text-box .text-box-line {
@@ -8223,9 +8226,9 @@ body footer a:hover {
 
 .content-head.style2 h2 {
   font-size: 15px;
-  color: #ffd658;
+  color: #111111;
   text-align: center;
-  /* letter-spacing: 1em; */
+  letter-spacing: 1em;
   font-weight: 400;
 }
 
@@ -8871,7 +8874,7 @@ Contact Form
 }
 
 .home-onepage-features h5 {
-  color: #ffd658;
+  color: #fff;
   margin: 0 0 12px;
 }
 
@@ -9256,9 +9259,9 @@ home-business-info .container {
   color: #1674d1 !important;
 }
 
-/* .text-center {
+.text-center {
   padding-top: 20px;
-} */
+}
 
 .vc_element_title_wrap {
   padding: 0 0px 16px 57px;
@@ -10947,20 +10950,7 @@ a.eg-henryharrison-element-2 {
 .uc-content #menu-social-medium li {
   margin: 0px 24px 0px 0px;
 }
-.start{
-  text-align: end;
-  padding-bottom: 0px;
-  padding-top:20px;
-}
-.end{
-  text-align: start;
-  padding-bottom: 0px;
-  padding-top:20px;
-}
-.social-media{
-  text-align: center;
-  padding-bottom: 25px;
-}
+
 /* ==========================================================================
     31. RESPONSIVE STYLES
     ========================================================================== */
@@ -11278,16 +11268,6 @@ a.eg-henryharrison-element-2 {
   .shop-cat,
   .shop-cat2 {
     margin-top: 30px;
-  }
-  .start{
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top:20px;
-  }
-  .end{
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top:0px;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -11971,16 +11951,6 @@ a.eg-henryharrison-element-2 {
   .cta-box .pull-right {
     float: none !important;
     margin-top: 25px;
-  }
-  .start{
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top:20px;
-  }
-  .end{
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top:0px;
   }
 }
 
