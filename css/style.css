@@ -9347,6 +9347,11 @@ home-business-info .container {
   }
 }
 @media (max-width: 768px) {
+
+  .products img {
+    padding:22px !important;
+  }
+
   .vc-icon-second {
     float: none !important;
     text-align: center;
@@ -11992,5 +11997,9 @@ a.eg-henryharrison-element-2 {
     padding-top: 0;
   }
 }
+
+.products img {
+  padding: 20px;
+} 
 
 /*# sourceMappingURL=style.css.map */
