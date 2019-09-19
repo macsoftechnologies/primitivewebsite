@@ -2588,6 +2588,10 @@ footer.footer2 {
 .content-head{
   text-align: center;
 }
+.content-head h3{
+  color: #1674D1;
+  padding-bottom: 10px;
+}
 
 .content-head h1 {
   margin: 15px 0 25px;
