@@ -1433,6 +1433,7 @@ textarea {
   padding: 15px 25px;
 }
 
+
 /* ==========================================================================
     5. FOOTER
     ========================================================================== */
@@ -1823,9 +1824,10 @@ footer.footer2 {
 
 .cta-box {
   margin-bottom: 0px;
-  padding-top: 70px;
+  /* padding-top: 70px; */
   padding-bottom: 65px;
   background: url(../images/other/section06.jpg);
+  text-align: center;
 }
 
 .cta-box h3 {
@@ -2577,7 +2579,10 @@ footer.footer2 {
 }
 
 .padding-100 {
-  padding: 100px 0 !important;
+  padding-top: 100px !important;
+}
+.content-head{
+  text-align: center;
 }
 
 .content-head h1 {
@@ -2715,6 +2720,9 @@ footer.footer2 {
 
 .no-padding {
   padding: 0 !important;
+}
+.visible{
+  display: none;
 }
 
 .padding-bottom-50 {
@@ -8733,7 +8741,7 @@ Contact Form
 }
 
 .home-onepage-footer {
-  padding: 85px 0;
+  /* padding: 85px 0; */
   background-color: #192128;
 }
 
@@ -8860,10 +8868,10 @@ Contact Form
   letter-spacing: 0.3em;
   display: table;
 }
-
+/* 
 .home-services .content-head {
   margin-bottom: 85px;
-}
+} */
 
 .home-onepage-features .content-head {
   margin-bottom: 30px;
@@ -8887,7 +8895,7 @@ Contact Form
 }
 
 .step-features {
-  padding-top: 80px !important;
+  /* padding-top: 80px !important; */
   padding-bottom: 80px !important;
   background-image: url(../images/other/home06-section01.png) !important;
 }
