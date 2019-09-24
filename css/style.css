@@ -9415,6 +9415,10 @@ home-business-info .container {
 }
 @media (max-width: 768px) {
 
+  .padding-100 {
+    padding: 15px !important;
+  }
+
   .products img {
     padding:22px !important;
   }
@@ -11934,7 +11938,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .client-testimonials .slick-slide img {
-    height: 50px;
+    height: 90px;
     width: auto;
     max-width: 100%;
   }
