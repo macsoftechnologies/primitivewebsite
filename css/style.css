@@ -2756,6 +2756,16 @@ footer.footer2 {
   padding-top: 5px;
   background-color: white;
 }
+.comingsoon-txt{
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  color: #fff;
+  font-size: 20px;
+  background-color: gray;
+  opacity: 0.5;;
+}
+
 .visible{
   display: none;
 }
@@ -7637,7 +7647,13 @@ blockquote.no-margin {
   color: #1674d1;
   font-size: 50px;
 }
-
+.text-center{
+  text-align: -webkit-center;
+}
+.slick-track{
+  display: flex ;
+  align-items: center;
+}
 .text-center h4 {
   margin-bottom: 10px;
   margin-top: 35px;
@@ -12073,6 +12089,7 @@ a.eg-henryharrison-element-2 {
 .products img {
   padding: 20px;
 } 
+
 /* .my-class {
   font-size: 40px !important;
 } */
