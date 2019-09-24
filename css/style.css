@@ -2991,12 +2991,13 @@ footer.footer2 {
   margin-bottom: 0px;
   padding-top: 140px;
   padding-bottom: 155px;
-  background-image: url(../images/other/section14.jpg);
+  background-color: #000;
+  /* background-image: url(../images/other/section14.jpg); */
 }
 
 .service-list-head h1 {
   color: #fff;
-  letter-spacing: 0.2em;
+  letter-spacing: 6px;
   font-size: 50px;
   line-height: 1.2em;
   margin: 0 0 20px;
@@ -9434,6 +9435,9 @@ home-business-info .container {
   .padding-100 {
     padding: 15px !important;
   }
+  .wpb_video_wrapper {
+    margin-bottom: 22px;
+  }
 
   .products img {
     padding:22px !important;
@@ -12089,6 +12093,10 @@ a.eg-henryharrison-element-2 {
 .products img {
   padding: 20px;
 } 
+
+.animated-video {
+  margin-bottom : 22px;
+}
 
 /* .my-class {
   font-size: 40px !important;
