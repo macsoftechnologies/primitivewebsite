@@ -1469,7 +1469,7 @@ footer {
 .fprojects li {
   padding: 5px 5px 5px;
   float: left;
-  width: 33.333%;
+  width: 35.333%;
 }
 
 .fnews li {
@@ -1543,8 +1543,11 @@ footer.footer2 {
 
 .copyright .right {
   /* padding-top: 30px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
   /* padding-bottom: 30px; */
   text-align: right;
+  color: #fff;
 }
 
 .copyright .center:first-child {
@@ -2599,6 +2602,13 @@ footer.footer2 {
   letter-spacing: 0.05em;
   font-size: 50px;
 }
+.content-head1 h1 {
+  margin: 170px 0 25px;
+  color: #1674D1;
+  letter-spacing: 0.05em;
+  font-size: 50px;
+  text-align: center;
+}
 
 .content-data {
   color:#ffd658;
@@ -3182,7 +3192,30 @@ footer.footer2 {
 .step-feature-box table tbody tr td:first-child {
   width: 200px;
 }
-
+/* .rev_slider_5_2_wrapper{
+  height: 900px !important;
+} */
+.ul-dots{
+  margin-left: 17px;
+} 
+.ul-dots li{
+  list-style-type:disc;
+  margin-left: 15px;
+}
+.ul-dots1{
+  margin-top: 15px;
+}
+.ul-dots1 li{
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.ul-dots2{
+  margin-top: 15px;
+}
+.ul-dots2 li{
+  list-style-type: disc;
+  margin-left: 25px;
+}
 /* ==========================================================================
     24. PRICING TABLE
     ========================================================================== */
@@ -10850,6 +10883,7 @@ a.eg-henryharrison-element-2 {
 
 #rev_slider_5_2 {
   background: #fff;
+  height: 900px !important;
 }
 
 .maintenance-content {
