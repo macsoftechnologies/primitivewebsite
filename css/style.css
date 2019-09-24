@@ -2463,7 +2463,7 @@ footer.footer2 {
     ========================================================================== */
 .client-testimonials {
   padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .testimonial-text p {
@@ -2593,9 +2593,9 @@ footer.footer2 {
   text-transform: none;
 }
 
-.padding-100 {
+/* .padding-100 {
   padding-top: 100px !important;
-}
+} */
 .content-head{
   text-align: center;
 }
@@ -2611,7 +2611,7 @@ footer.footer2 {
   font-size: 50px;
 }
 .content-head1 h1 {
-  margin: 170px 0 25px;
+  margin: 115px 0 25px;
   color: #1674D1;
   letter-spacing: 0.05em;
   font-size: 50px;
@@ -10895,7 +10895,7 @@ a.eg-henryharrison-element-2 {
 
 #rev_slider_5_2 {
   background: #fff;
-  height: 900px !important;
+  height: 815px !important;
 }
 
 .maintenance-content {
