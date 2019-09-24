@@ -1487,7 +1487,7 @@ footer {
   color: #999;
 }
 
-.fnews li a::before {
+/* .fnews li a::before {
   content: "";
   margin-right: 10px;
   font-size: 28px;
@@ -1499,7 +1499,7 @@ footer {
   display: table;
   float: left;
   top: 9px;
-}
+} */
 
 footer.footer2 {
   background-color: #fff;
@@ -2553,6 +2553,14 @@ footer.footer2 {
 .testimonials-carousel {
   padding-bottom: 80px;
 }
+/* .testimonials-carousel-nav img {
+  width: 240px;
+  height: 133px;
+} */
+/* .test-img2{
+  margin-top: 30px;
+  margin-left: 10px;
+} */
 
 /* ==========================================================================
     20. TEAM
