@@ -1,13 +1,13 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     'use strict';
 
     /* ==========================================================================
     ACCORDION
     ========================================================================== */
-    $('.accordion .collapse').on('shown.bs.collapse', function() {
+    $('.accordion .collapse').on('shown.bs.collapse', function () {
         $(this).parent().find(".pe-7s-angle-right-circle").removeClass("pe-7s-angle-right-circle").addClass("pe-7s-angle-down-circle");
         $(this).parent().addClass("actives");
-    }).on('hidden.bs.collapse', function() {
+    }).on('hidden.bs.collapse', function () {
         $(this).parent().find(".pe-7s-angle-down-circle").removeClass("pe-7s-angle-down-circle").addClass("pe-7s-angle-right-circle");
         $(this).parent().removeClass("actives");
     });
@@ -55,7 +55,24 @@ jQuery(document).ready(function($) {
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.testimonials-carousel',
-        focusOnSelect: true
+        focusOnSelect: true,
+
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
 
@@ -63,11 +80,11 @@ jQuery(document).ready(function($) {
     HEADER CART
     ========================================================================== */
     var $mini_cart = $('.mini-cart');
-    $mini_cart.on('click', function(e) {
+    $mini_cart.on('click', function (e) {
         $(this).addClass('open');
     });
 
-    $(document).on('click', function(e) {
+    $(document).on('click', function (e) {
         if ($(e.target).closest($mini_cart).length == 0) {
             $mini_cart.removeClass('open');
         }
@@ -79,11 +96,11 @@ jQuery(document).ready(function($) {
     var $search_btn = $('.search-box > i'),
         $search_form = $('form.search-form');
 
-    $search_btn.on('click', function() {
+    $search_btn.on('click', function () {
         $search_form.toggleClass('open');
     });
 
-    $(document).on('click', function(e) {
+    $(document).on('click', function (e) {
         if ($(e.target).closest($search_btn).length == 0 && $(e.target).closest('input.search-field').length == 0 && $search_form.hasClass('open')) {
             $search_form.removeClass('open');
         }
@@ -162,14 +179,14 @@ jQuery(document).ready(function($) {
                 return element.attachEvent("on" + eventName, func);
             }
         };
-        addEvent(document.getElementById('open-left'), 'click', function() {
+        addEvent(document.getElementById('open-left'), 'click', function () {
             snapper.open('left');
         });
         if (jQuery('#open-right').length > 0) {
-            addEvent(document.getElementById('open-right'), 'click', function() {
+            addEvent(document.getElementById('open-right'), 'click', function () {
                 snapper.open('right');
             });
-            addEvent(document.getElementById('close-right'), 'click', function() {
+            addEvent(document.getElementById('close-right'), 'click', function () {
                 if (snapper.state().state == "right") {
                     snapper.close('right');
                 }
@@ -182,7 +199,7 @@ jQuery(document).ready(function($) {
     ========================================================================== */
     var $menu = $('.mobile-menu');
 
-    $menu.find('#mobile-menu li.menu-item-has-children > a, .sub-menu-toggle').on('click', function(e) {
+    $menu.find('#mobile-menu li.menu-item-has-children > a, .sub-menu-toggle').on('click', function (e) {
         e.preventDefault();
         var subMenu = $(this).siblings('.sub-menu');
 
@@ -230,20 +247,20 @@ jQuery(document).ready(function($) {
     SHOP CHECKOUT
     ========================================================================== */
 
-    $('#payment_method_bacs').on('click', function() {
+    $('#payment_method_bacs').on('click', function () {
         $(".payment_method_bacs").addClass("active");
         $(".payment_method_cheque").removeClass("active");
         $(".payment_method_paypal").removeClass("active");
     });
 
-    $('#payment_method_cheque').on('click', function() {
+    $('#payment_method_cheque').on('click', function () {
         $(".payment_method_cheque").addClass("active");
         $(".payment_method_bacs").removeClass("active");
         $(".payment_method_paypal").removeClass("active");
 
     });
 
-    $('#payment_method_paypal').on('click', function() {
+    $('#payment_method_paypal').on('click', function () {
         $(".payment_method_paypal").addClass("active");
         $(".payment_method_bacs").removeClass("active");
         $(".payment_method_cheque").removeClass("active");
@@ -253,7 +270,7 @@ jQuery(document).ready(function($) {
     SHOP SINGLE REVIEW TAB
     ========================================================================== */
     $('.wc-tabs-wrapper, .shop-content-tabs')
-        .on('init', function() {
+        .on('init', function () {
             $('.wc-tab, .shop-content-tabs .panel:not(.panel .panel)').hide();
 
             var hash = window.location.hash;
@@ -268,7 +285,7 @@ jQuery(document).ready(function($) {
                 $tabs.find('li:first a').click();
             }
         })
-        .on('click', '.wc-tabs li a, ul.tabs li a', function() {
+        .on('click', '.wc-tabs li a, ul.tabs li a', function () {
             var $tab = $(this);
             var $tabs_wrapper = $tab.closest('.wc-tabs-wrapper, .shop-content-tabs');
             var $tabs = $tabs_wrapper.find('.wc-tabs, ul.tabs');
@@ -283,7 +300,7 @@ jQuery(document).ready(function($) {
         })
         .trigger('init');
 
-    $('a.shop-content-review-link').on('click', function() {
+    $('a.shop-content-review-link').on('click', function () {
         $('.reviews_tab a').click();
         return true;
     });
@@ -304,7 +321,7 @@ jQuery(document).ready(function($) {
     ========================================================================== */
     var $scrollup = $('.scrollup');
 
-    $window.scroll(function() {
+    $window.scroll(function () {
         if ($window.scrollTop() > 100) {
             $scrollup.addClass('show');
         } else {
@@ -312,7 +329,7 @@ jQuery(document).ready(function($) {
         }
     });
 
-    $scrollup.on('click', function(evt) {
+    $scrollup.on('click', function (evt) {
         $("html, body").animate({
             scrollTop: 0
         }, 600);
