@@ -2749,12 +2749,14 @@ footer.footer2 {
 }
 .padding-sides{
   padding-left:5px !important;
+  padding-bottom: 3px !important;
 }
 .centering{
   display: flex;
   justify-content: center;
   padding-top: 5px;
   background-color: white;
+  flex-wrap: wrap;
 }
 .comingsoon-txt{
   position: absolute;
@@ -11399,6 +11401,76 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .header-font-styling{
+    font-size: 15px !important;
+    letter-spacing: 5px !important;
+    color: #72a4f0 !important;
+  }
+  .my-class{
+    font-size: 23px !important;
+    letter-spacing: 5px !important;
+    color: #72a4f0 !important;
+  }
+  .dig-styling{
+    color: #fff !important;
+  }
+  /* .team-titles h4{
+    font-size: 9px !important;
+  }
+  .team-overlay:hover h4 span{
+    font-size: 12px !important;
+  }
+  .team-social{
+    display: flex;
+  }
+  .team-social a{
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFF;
+    margin: 0px 3px -21px;
+  } */
+  .header-font-styling1{
+    letter-spacing: 5px !important;
+  }
+  .header-font-styling2{
+    font-weight: bold
+  }
+  .content-head1 h1{
+    width: 100%;
+  }
+  #rev_slider_5_2{
+    height: 650px!important;
+  }
+  .padding-mobile li{
+    padding:5px !important;
+  }
+
+  .hidden-buttons{
+    display: block !important;
+  }
+  .hidden-text{
+    display: none;
+  }
+  .testimonials-carousel{
+    display: block !important;
+  }
+  .contact-form button{
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .home-onepage-footer{
+    border-bottom: 1px solid white;
+  }
+  footer{
+    padding-top:30px;
+  }
+  .fnews{
+    text-align: center;
+  }
+  .fnews li{
+    border-bottom: none;
+  }
   .shop-cat,
   .shop-cat2 {
     margin-top: 30px;
@@ -11833,6 +11905,9 @@ a.eg-henryharrison-element-2 {
 
   .cta-box h3 {
     margin-bottom: 20px;
+    text-align: initial;
+    font-size: 20px;
+
   }
 
   .contact-info {
@@ -12108,3 +12183,9 @@ a.eg-henryharrison-element-2 {
   top: 60px !important;
 } */
 /*# sourceMappingURL=style.css.map */
+.hidden-buttons{
+  display: none;
+}
+.testimonials-carousel{
+  display: none !important;
+}
