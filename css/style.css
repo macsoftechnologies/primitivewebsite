@@ -1298,6 +1298,7 @@ header #menu-social-big {
 
 h4.custom-head {
   font-size: 18px;
+  font-weight: bold;
 }
 
 .page-content {
@@ -1835,11 +1836,15 @@ footer.footer2 {
 
 .cta-box h3 {
   letter-spacing: 0.15em;
-  margin-top: 8px;
+  margin-top: 32px;
 }
 
 .highlight {
-  color: #1674D1;
+  font-weight:bold;
+  color: #9134a0;
+}
+.home-highlight{
+  color: #1372D1;
 }
 
 .highlight2 {
@@ -1850,7 +1855,8 @@ footer.footer2 {
   margin-bottom: 0px;
   padding-top: 70px;
   padding-bottom: 65px;
-  background: url(../images/other/section04.jpg);
+  background: #6d3695;
+  /* background: url(../images/other/section04.jpg); */
 }
 
 .cta-box-blue h3 {
@@ -3099,9 +3105,23 @@ footer.footer2 {
   margin: 0;
 }
 
+.text-content1 h4{
+  margin: 10px 0px 10px 0px !important;
+  font-weight: bold;
+}
+
+.text-content1 p {
+  margin-bottom: 5px;
+}
+
 .text-black {
-  background: #111;
-  padding: 0 100px;
+  color: white;
+  background: #777;
+  padding: 0 35px;
+}
+
+.text-black p {
+  color:#ffffff;
 }
 
 .text-black h4 {
@@ -3118,8 +3138,12 @@ footer.footer2 {
 }
 
 .text-blue {
-  background: #1674D1;
+  background: #9134a0;
   padding: 0 100px;
+}
+
+.text-blue img {
+  height:251px;
 }
 
 .text-blue h4 {
@@ -3166,9 +3190,38 @@ footer.footer2 {
   text-align: left;
   text-transform: none;
   letter-spacing: 0.1em;
-  margin: 0 0 35px;
+  margin: 20px 0 20px;
   font-size: 50px;
 }
+
+/**\
+Start of step-features-mobile Styles
+\**/
+.step-features-mobile h3 {  
+    color: #1674d1;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  transition: none 0s ease 0s;
+  opacity: 1;
+  text-transform: uppercase;  
+  text-align: center;
+  margin-bottom: 10px;
+}
+.step-features-mobile .list-items-container {
+  display: flex;
+}
+.step-features-mobile .pe-7s-monitor {
+  font-size: 50px;
+  color: #1472d1;
+}
+.step-features-mobile .ul-dots {
+  margin-bottom: 25px;
+}
+/*Start of step-features-mobile Styles*\
+\*End of step-features-mobile Styles*/
+
+
 
 .step-feature-box {
   position: relative;
@@ -7491,7 +7544,7 @@ p.stars a.star-5:after {
   margin: 0 !important;
   line-height: 1em !important;
   font-size: 80px;
-  color: #1573d1;
+  color: #400186;
   text-align: left;
 }
 
@@ -8850,10 +8903,10 @@ Contact Form
   color: #fff;
 }
 
-.form-connect {
+/* .form-connect {
   padding-right: 60px !important;
   padding-left: 30px !important;
-}
+} */
 
 .form-contact-dark .contact-form input {
   margin-bottom: 20px;
@@ -12176,6 +12229,13 @@ a.eg-henryharrison-element-2 {
   margin-left: 15px;
 } 
 
+.showcase-font {
+  font-size: 20px;
+}
+
+.fa {
+  font-size:20px;
+}
 /* .my-class {
   font-size: 40px !important;
 } */
