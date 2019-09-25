@@ -4631,7 +4631,7 @@ select:focus {
 
 #content {
   position: relative;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .postcontent-type02 article.post .postcontent-gird-content .blog-entry-title a {
@@ -12263,4 +12263,18 @@ a.eg-henryharrison-element-2 {
 }
 .testimonials-carousel{
   display: none !important;
+}
+/**---resources---**/
+.video-footer{
+  display: flex;
+  margin:20px 0;
+}
+.video-footer h5{
+  margin-right: 20px;
+}
+.social-icon-pad {
+  padding-right: 15px;
+}
+.single{
+  padding-top: 20px;
 }
