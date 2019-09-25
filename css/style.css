@@ -3098,8 +3098,13 @@ footer.footer2 {
 }
 
 .text-black {
-  background: #111;
-  padding: 0 100px;
+  color: white;
+  background: #777;
+  padding: 0 35px;
+}
+
+.text-black p {
+  color:#ffffff;
 }
 
 .text-black h4 {
@@ -3118,6 +3123,10 @@ footer.footer2 {
 .text-blue {
   background: #1674D1;
   padding: 0 100px;
+}
+
+.text-blue img {
+  height:251px;
 }
 
 .text-blue h4 {
