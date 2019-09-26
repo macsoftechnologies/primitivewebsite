@@ -11796,6 +11796,7 @@ a.eg-henryharrison-element-2 {
     display: table;
     float: none;
     height: 100%;
+    width: 100%;
   }
 
   .text-black {
@@ -12288,3 +12289,26 @@ a.eg-henryharrison-element-2 {
 .single{
   padding-top: 20px;
 }
+/**---care---**/
+.fa-plus{
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+  /* YOutubelinks */
+  .youtube-links:link {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:visited {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:hover {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:active {
+    color: #9134a0;
+    text-decoration: underline;
+  }
