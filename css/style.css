@@ -11466,7 +11466,13 @@ a.eg-henryharrison-element-2 {
     color: #72a4f0 !important;
   }
   .font-style{
-    font-size: 12px !important;
+    font-size: 12px !important;   
+  }
+  .top-font{
+    top:0px ;
+  }
+  .down-font{
+    top:130px ;
   }
   .dig-styling{
     color: #fff !important;
