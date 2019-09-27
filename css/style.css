@@ -3039,7 +3039,7 @@ footer.footer2 {
 
 .dual-info {
   padding: 165px 135px !important;
-  background: #111 url(../images/other/service-list-01-021.jpg) repeat scroll 0% 0% !important;
+  background: #1674D1  url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important;
 }
 
 .dual-info h4 {
@@ -3095,7 +3095,7 @@ footer.footer2 {
 
 .dual-content-blue .dual-info {
   padding: 165px 135px !important;
-  background: #1674D1 url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important;
+  background: #1674D1 url(../images/other/service-list-01-021.jpg) repeat scroll 0% 0% !important;
 }
 
 .text-content h4 {
@@ -12360,3 +12360,16 @@ a.eg-henryharrison-element-2 {
     color: #9134a0;
     text-decoration: underline;
   }
+/* ---Marketplaces--- */
+.marketplaces-cart{
+  padding:0;
+}
+.marketplaces-service-list-h1{
+  letter-spacing: 2px !important;
+}
+.marketplaces-service-list-h1 b{
+  color: #1674D1 !important;
+}
+.marketplace-bg{
+  background-color: #1372D1;
+}
