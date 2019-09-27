@@ -9522,6 +9522,10 @@ home-business-info .container {
 }
 @media (max-width: 768px) {
 
+  .logo-data {
+    height:225px !important;
+  }
+
   .padding-100 {
     padding: 15px !important;
   }
@@ -12377,6 +12381,9 @@ a.eg-henryharrison-element-2 {
 .xplore-theme li a:hover{
   color: #ffbb00 !important;
 }
+.xplore-data ul li {
+  list-style-type: disc;
+} 
 .xplore-theme h1{
   color: #ffbb00;
 }
@@ -12394,9 +12401,9 @@ a.eg-henryharrison-element-2 {
 .xplore-theme h4 {
   font-size:25px !important;
 }
-.xplore-theme ul li {
+/* .xplore-theme ul li {
   color:#000000;
-}
+} */
 
 @media only screen and (max-width: 992px) and (min-width: 815px){
   .img-responsive-3{
@@ -12407,6 +12414,10 @@ a.eg-henryharrison-element-2 {
   .col-height-mob{
     height: 284px;;
   }
+}
+
+.step-text {
+  color:#000000;
 }
 
   /* YOutubelinks */
