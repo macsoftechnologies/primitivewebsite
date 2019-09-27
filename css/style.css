@@ -3027,7 +3027,7 @@ footer.footer2 {
   width: 100%;
 }
 
-.dual-img {
+/* .dual-img {
   background-size: cover !important;
   width: 50%;
   float: left;
@@ -3035,6 +3035,15 @@ footer.footer2 {
   top: 0;
   left: 0;
   height: 100%;
+} */
+.dual-img {
+  background-size: cover !important;
+  width: 100%;
+  float: left;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  height: 450px;
 }
 
 .dual-info {
@@ -11473,6 +11482,13 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .marketplace-bg{
+    padding: 0px;
+  }
+  .dual-img{
+    float: none;
+    height: 200px;
+  }
   .header-font-styling{
     font-size: 15px !important;
     letter-spacing: 5px !important;
@@ -12372,4 +12388,7 @@ a.eg-henryharrison-element-2 {
 }
 .marketplace-bg{
   background-color: #1372D1;
+}
+.padding-zero{
+  padding: 0;
 }
