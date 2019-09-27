@@ -11152,6 +11152,24 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header-font-styling{
+    color: #337ab7 !important;
+    letter-spacing: 10px !important;
+    font-size: 25px !important;
+  }
+  .dig-styling{
+    color: #fff;
+  }
+  .header-font-styling-tab-1{
+    letter-spacing: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  .centering{
+    flex-wrap: nowrap;
+  }
+  .padding-tab{
+    padding:5px !important;
+  }
   .eg-polygon-skin-07-element-13,
   .eg-polygon-skin-08-element-13,
   .eg-polygon-skin-09-element-13 {
@@ -11798,6 +11816,9 @@ a.eg-henryharrison-element-2 {
     height: 100%;
     width: 100%;
   }
+  .col-height-mob{
+    height: 306.4px;
+  }
 
   .text-black {
     padding: 70px 70px;
@@ -12291,8 +12312,35 @@ a.eg-henryharrison-element-2 {
 }
 /**---care---**/
 .fa-plus{
-  font-size: 15px;
+  font-size: 12px;
   padding-right: 5px;
+}
+.care-theme li a:hover{
+  color: #9134a0 !important;
+}
+.care-theme h1{
+  color: #9134a0;
+}
+.care-scroll{
+  border-color: #9134a0;
+  color: #9134a0;
+}
+.care-scroll:hover{
+  background-color: #9134a0;
+  border-color: #9134a0;
+}
+.care-btn{
+  color: #9134a0 !important;
+}
+@media only screen and (max-width: 992px) and (min-width: 815px){
+  .img-responsive-3{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px){
+  .col-height-mob{
+    height: 284px;;
+  }
 }
 
   /* YOutubelinks */
