@@ -3043,7 +3043,7 @@ footer.footer2 {
   width: 100%;
 }
 
-.dual-img {
+/* .dual-img {
   background-size: cover !important;
   width: 50%;
   float: left;
@@ -3051,11 +3051,20 @@ footer.footer2 {
   top: 0;
   left: 0;
   height: 100%;
+} */
+.dual-img {
+  background-size: cover !important;
+  width: 100%;
+  float: left;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  height: 450px;
 }
 
 .dual-info {
   padding: 165px 135px !important;
-  background: #111 url(../images/other/service-list-01-021.jpg) repeat scroll 0% 0% !important;
+  background: #1674D1  url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important;
 }
 
 .dual-info h4 {
@@ -3111,7 +3120,7 @@ footer.footer2 {
 
 .dual-content-blue .dual-info {
   padding: 165px 135px !important;
-  background: #1674D1 url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important;
+  background: #1674D1 url(../images/other/service-list-01-021.jpg) repeat scroll 0% 0% !important;
 }
 
 .text-content h4 {
@@ -11498,6 +11507,13 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .marketplace-bg{
+    padding: 0px;
+  }
+  .dual-img{
+    float: none;
+    height: 200px;
+  }
   .header-font-styling{
     font-size: 15px !important;
     letter-spacing: 5px !important;
@@ -12393,24 +12409,36 @@ a.eg-henryharrison-element-2 {
   }
 }
 
-.step-text {
-  color:#000000;
+  /* YOutubelinks */
+  .youtube-links:link {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:visited {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:hover {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+  .youtube-links:active {
+    color: #9134a0;
+    text-decoration: underline;
+  }
+/* ---Marketplaces--- */
+.marketplaces-cart{
+  padding:0;
 }
-
-/* YOutubelinks */
-.youtube-links:link {
-  color: #9134a0;
-  text-decoration: underline;
+.marketplaces-service-list-h1{
+  letter-spacing: 2px !important;
 }
-.youtube-links:visited {
-  color: #9134a0;
-  text-decoration: underline;
+.marketplaces-service-list-h1 b{
+  color: #1674D1 !important;
 }
-.youtube-links:hover {
-  color: #9134a0;
-  text-decoration: underline;
+.marketplace-bg{
+  background-color: #1372D1;
 }
-.youtube-links:active {
-  color: #9134a0;
-  text-decoration: underline;
+.padding-zero{
+  padding: 0;
 }
