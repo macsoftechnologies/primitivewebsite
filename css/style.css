@@ -3212,7 +3212,7 @@ footer.footer2 {
   vertical-align: middle;
 }
 
-.row-height {
+.row {
   display: table;
   table-layout: fixed;
   height: 100%;
@@ -9024,7 +9024,7 @@ Contact Form
 
 .loadmore-wrapper,
 .loadmore-wrapper:hover {
-  padding: 56px 0;
+  /* padding: 56px 0; */
   background-color: #1674D1;
   color: #fff;
   font-size: 12px;
