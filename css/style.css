@@ -3029,7 +3029,7 @@ footer.footer2 {
 }
 
 .service-list-head p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0;
   color: #fff;
 }
@@ -3063,7 +3063,7 @@ footer.footer2 {
 }
 
 .dual-info {
-  padding: 165px 135px !important;
+  padding: 176px 135px !important;
   background: #1674D1  url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important;
 }
 
@@ -9522,6 +9522,14 @@ home-business-info .container {
 }
 @media (max-width: 768px) {
 
+  .cta-box h3 {
+    margin-top:51px;
+  }
+
+  .text-center {
+    padding: 60px 0px 0px 0px;
+  }
+
   .logo-data {
     height:225px !important;
   }
@@ -12452,4 +12460,8 @@ a.eg-henryharrison-element-2 {
 }
 .padding-zero{
   padding: 0;
+}
+
+.link-color a{
+  color: #1372D1;
 }
