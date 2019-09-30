@@ -10221,6 +10221,9 @@ home-business-info .container {
   border-radius: 0px 0px 0px 0px;
   letter-spacing: 0.6em;
 }
+.scrolldown-icon{
+  bottom:48px;
+}
 
 .tp-caption.Polygon-style-05,
 .Polygon-style-05 {
@@ -11519,6 +11522,15 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .scrolldown-icon1 {
+    top:35px !important;
+    left:425px !important;
+  }
+  .scrolldown-icon2 {
+    top:-65px !important;
+    left:434px !important;
+  }
+  
   .marketplace-bg{
     padding: 0px;
   }
@@ -11532,8 +11544,8 @@ a.eg-henryharrison-element-2 {
     color: #72a4f0 !important;
   }
   .my-class{
-    font-size: 22px !important;
-    letter-spacing: 5px !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
     color: #72a4f0 !important;
   }
   .font-style{
@@ -12336,9 +12348,9 @@ a.eg-henryharrison-element-2 {
 .fa {
   font-size:20px;
 }
-/* .my-class {
-  font-size: 40px !important;
-} */
+.my-class {
+  text-transform: uppercase;
+}
 /* .tp-parallax-wrap #slide-26-layer-15 {
   top: 60px !important;
 } */
@@ -12464,4 +12476,17 @@ a.eg-henryharrison-element-2 {
 
 .link-color a{
   color: #1372D1;
+}
+/* --our mission-- */
+.letter-spacing-vision{
+  letter-spacing: 3px;
+}
+/* .my-class{
+  font-size: 33px !important;
+  letter-spacing: 2px !important;
+} */
+.footer-adj{
+  font-size: 14px !important;
+  margin-left: 35px;
+  top:0px !important;
 }
