@@ -9522,6 +9522,17 @@ home-business-info .container {
 }
 @media (max-width: 768px) {
 
+  /* .video-footer h5 {
+    margin-right:0px !important;
+  } */
+
+  /* .video-footer {
+    justify-content: space-between;
+  } */
+
+  /* .video-footer h5 {
+    font-size: 11px !important;
+  } */
   .cta-box h3 {
     margin-top:51px;
   }
@@ -12335,6 +12346,7 @@ a.eg-henryharrison-element-2 {
 } 
 
 .animated-video {
+  margin-left:12px;
   margin-bottom : 22px;
 }
 .test-img4{
@@ -12364,7 +12376,7 @@ a.eg-henryharrison-element-2 {
 /**---resources---**/
 .video-footer{
   display: flex;
-  margin:20px 0;
+  margin:10px 0;
 }
 .video-footer h5{
   margin-right: 20px;
@@ -12435,6 +12447,19 @@ a.eg-henryharrison-element-2 {
     height: 284px;;
   }
 }
+@media only screen and (max-width:380px) {
+    .video-footer h5 {
+    margin-right:0px !important;
+  }
+
+  .video-footer {
+    justify-content: space-between;
+  }
+
+  .video-footer h5 {
+    font-size: 11px !important;
+  }
+}
 
 .step-text {
   color:#000000;
@@ -12489,4 +12514,7 @@ a.eg-henryharrison-element-2 {
   font-size: 14px !important;
   margin-left: 35px;
   top:0px !important ;
+}
+.metadata {
+  margin-top: -3px;
 }
