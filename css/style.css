@@ -8929,9 +8929,9 @@ Contact Form
   margin-top: 2px;
 }
 
-.social-menu.link-white {
+/* .social-menu.link-white {
   margin-left: -30px;
-}
+} */
 
 .contact-detail-connect .widget .menu-social-small li a {
   font-size: 16px;
@@ -11201,9 +11201,13 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* .scrolldown-icon1{
+    visibility: visible;
+    left:270px !important;
+  } */
   .header-font-styling{
     color: #337ab7 !important;
-    letter-spacing: 10px !important;
+    letter-spacing: 5px !important;
     font-size: 25px !important;
   }
   .dig-styling{
@@ -12434,6 +12438,17 @@ a.eg-henryharrison-element-2 {
   .col-height-mob{
     height: 284px;;
   }
+  .step-container{
+    display: flex;
+    flex-wrap: wrap
+  }
+  
+  .rewards-styling{
+    margin-left: 25px;
+  }
+  .rewards-styling-last{
+    margin-left: 40px;
+  }
 }
 
 .step-text {
@@ -12489,4 +12504,28 @@ a.eg-henryharrison-element-2 {
   font-size: 14px !important;
   margin-left: 35px;
   top:0px !important ;
+}
+/* --tab-view-- */
+@media only screen and (max-width: 794px) and (min-width: 768px){
+  .step-items-rewards{
+    margin-left: 25px;
+  }
+  .my-class{
+    font-size: 30px !important;
+    letter-spacing: 2px !important;
+  }
+  
+}
+@media only screen and (max-width: 992px) and (min-width: 795px){
+  .my-class{
+    font-size: 30px !important;
+    letter-spacing: 2px !important;
+  }
+  /* .step-items-rewards{
+    margin-left: 25px;
+  } */
+  .step-items-humility{
+    margin-left: 15px;
+  }
+  
 }
