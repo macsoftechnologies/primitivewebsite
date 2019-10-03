@@ -11227,6 +11227,7 @@ a.eg-henryharrison-element-2 {
   .header-font-styling-tab-1{
     letter-spacing: 5px !important;
     padding-bottom: 5px !important;
+    /* line-height: 40px !important; */
   }
   .centering{
     flex-wrap: nowrap;
@@ -12447,6 +12448,9 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (max-width: 992px) and (min-width: 768px){
+  /* .header-font-styling2 {
+    line-height: 10px;
+  } */
   .col-height-mob{
     height: 284px;;
   }
@@ -12521,6 +12525,10 @@ a.eg-henryharrison-element-2 {
 .letter-spacing-vision{
   letter-spacing: 3px;
 }
+.letter-spacing-values{
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
 /* .my-class{
   font-size: 33px !important;
   letter-spacing: 2px !important;
@@ -12553,6 +12561,10 @@ a.eg-henryharrison-element-2 {
   } */
   .step-items-humility{
     margin-left: 15px;
+  }
+  .header-font-styling-tab-1{
+    font-size:34px !important;
+    left:40px !important;
   }
   
 }
