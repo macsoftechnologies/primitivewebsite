@@ -1175,7 +1175,17 @@ header #menu-social-big {
 .header03 header.no-bg {
   position: absolute;
 }
-
+.slider-text {
+  position: absolute;
+  top:40%;
+  left:50%;
+  font-size: 45px;
+  color: #fff;
+}
+.list-items-container i {
+  font-size: 50px;
+  color: #0c5cd3;
+}
 /*==========================================================================
     3. ACCORDION STYLES
     ========================================================================== */
@@ -2631,7 +2641,7 @@ footer.footer2 {
   margin: 15px 0 25px;
   color: #1674D1;
   letter-spacing: 0.05em;
-  font-size: 50px;
+  font-size: 40px;
 }
 .content-head1 h3 {
     padding-top: 25px;
@@ -2643,11 +2653,11 @@ footer.footer2 {
 }
 .content-head1 h1 {
   /* margin: 15px 0 25px; */
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #1674D1;
   letter-spacing: 0.05em;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   background-color: #000D3D;
 }
@@ -7755,7 +7765,11 @@ blockquote.no-margin {
 }
 .slick-track{
   display: flex ;
-  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.container.text-center {
+  padding-top: 0px !important;
 }
 .text-center h4 {
   margin-bottom: 10px;
@@ -9532,6 +9546,10 @@ home-business-info .container {
     width: 100% !important;
   }
 }
+.slick-track {
+  width: auto !important;
+}
+
 @media (max-width: 768px) {
 
   /* .video-footer h5 {
@@ -11549,7 +11567,18 @@ a.eg-henryharrison-element-2 {
     padding-top:  0px;
   }
 }
+
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  /* .hidden-caro {
+    display: block;
+  } */
+  .test-img2 {
+    width: auto !important;
+  }
+  .test-img4 {
+    width: auto !important;
+    margin-left: 15px !important;
+  }
   .scrolldown-icon1 {
     top:35px !important;
     left:425px !important;
@@ -11558,7 +11587,12 @@ a.eg-henryharrison-element-2 {
     top:-65px !important;
     left:434px !important;
   }
-  
+  #career h3 {
+    text-align: center;
+  }
+  .cta-box h3 {
+    margin-top: 0px;
+  }
   .marketplace-bg{
     padding: 0px;
   }
@@ -11592,8 +11626,12 @@ a.eg-henryharrison-element-2 {
     padding-top: 0px;
   }
   .content-head h1{
-    margin:0px;
+    margin-top:10px;
   }
+  .scrollup {
+    display: none !important;
+  } 
+  
   /* .team-titles h4{
     font-size: 9px !important;
   }
@@ -11640,9 +11678,9 @@ a.eg-henryharrison-element-2 {
   .hidden-text{
     display: none;
   }
-  .testimonials-carousel{
+  /* .testimonials-carousel{
     display: block !important;
-  }
+  } */
   .contact-form button{
     border: 2px solid #fff;
     color: #fff;
@@ -12299,7 +12337,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .container {
-    max-width: 350px;
+    /* max-width: 350px; */
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -12367,7 +12405,7 @@ a.eg-henryharrison-element-2 {
   margin-bottom : 22px;
 }
 .test-img4{
-  margin-left: 15px;
+  margin-left: 45px;
 } 
 
 .showcase-font {
