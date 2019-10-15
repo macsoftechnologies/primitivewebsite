@@ -1178,13 +1178,17 @@ header #menu-social-big {
 .slider-text {
   position: absolute;
   top:40%;
-  left:50%;
+  left:52%;
   font-size: 45px;
-  color: #fff;
+  color: rgb(22,116,209);
+  font-weight: 900;
 }
 .list-items-container i {
-  font-size: 50px;
-  color: #0c5cd3;
+  font-size: 60px;
+  color: #1674d1;
+}
+.list-items-container img{
+  height: 58px;
 }
 /*==========================================================================
     3. ACCORDION STYLES
@@ -2545,6 +2549,9 @@ footer.footer2 {
   left: -60px;
   right: 0px;
   width: 45px;
+}
+.testimonials-carousel {
+  display: none;
 }
 
 .testimonials-carousel .slick-next {
@@ -11567,17 +11574,56 @@ a.eg-henryharrison-element-2 {
     padding-top:  0px;
   }
 }
-
+.test-img2 {
+  margin-top: 20px;
+}
+.test-img4{
+  margin-top: 25px;
+}
 @media only screen and (min-width: 200px) and (max-width: 767px) {
-  /* .hidden-caro {
-    display: block;
+  .growth {
+    margin-left: 4px ;
+  }
+  .humility {
+    margin-left: 6px ;
+  }
+  .rewards {
+    margin-left: 14px ;
+  }
+  /* .growth {
+    margin-left: 10px ;
   } */
+  .rev_slider_wrapper.fullscreen-container{
+  height: 270px !important;
+  width: 100% !important;
+  }
+  .tp-fullwidth-forcer {
+    height: 270px !important;
+  }
+  .logo-2 a {
+    margin-top: 8px !important;
+  }
+  .logo img {
+    height: 30px;
+  }
+  .hidden-lg i {
+    margin-top: 8px !important;
+  }
+  .slider-text {
+    font-size: 19px;
+    left:52%;
+    top:30%;
+    font-weight: 900;
+    
+  }
   .test-img2 {
     width: auto !important;
+    margin-top: 0px;
   }
   .test-img4 {
     width: auto !important;
     margin-left: 15px !important;
+    margin-top: 0px;
   }
   .scrolldown-icon1 {
     top:35px !important;
@@ -12264,7 +12310,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .client-testimonials .slick-slide img {
-    height: 90px;
+    height: 70px;
     width: auto;
     max-width: 100%;
   }
@@ -12352,7 +12398,7 @@ a.eg-henryharrison-element-2 {
   }
 
   h1 {
-    font-size: 2em !important;
+    font-size: 21px !important;
   }
 
   .error404 .site-main h1 {
@@ -12425,9 +12471,9 @@ a.eg-henryharrison-element-2 {
 .hidden-buttons{
   display: none;
 }
-.testimonials-carousel{
+/* .testimonials-carousel{
   display: none !important;
-}
+} */
 /**---resources---**/
 .video-footer{
   display: flex;
