@@ -207,7 +207,7 @@ header {
 
 #site-navigation .menu > ul > li > a,
 #site-navigation .menu > li > a {
-  color: #111111;
+  color: #b2b2b2;
 }
 
 #site-navigation .menu > ul > li,
@@ -7774,6 +7774,7 @@ blockquote.no-margin {
   display: flex ;
   justify-content: center;
   padding-bottom: 20px;
+  /* flex-wrap: wrap; */
 }
 .container.text-center {
   padding-top: 0px !important;
@@ -11581,6 +11582,9 @@ a.eg-henryharrison-element-2 {
   margin-top: 25px;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .slick-track {
+    flex-wrap: wrap;
+  }
   .growth {
     margin-left: 4px ;
   }
@@ -11619,11 +11623,19 @@ a.eg-henryharrison-element-2 {
   .test-img2 {
     width: auto !important;
     margin-top: 0px;
+    /* height: 60px; */
+  }
+  .test-img2 img {
+    height: 58px;
   }
   .test-img4 {
     width: auto !important;
     margin-left: 15px !important;
-    margin-top: 0px;
+    margin-top: 15px;
+    /* height: 42px; */
+  }
+  .test-img4 img {
+    height: 42px;
   }
   .scrolldown-icon1 {
     top:35px !important;
@@ -12310,7 +12322,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .client-testimonials .slick-slide img {
-    height: 70px;
+    /* height: 70px; */
     width: auto;
     max-width: 100%;
   }
