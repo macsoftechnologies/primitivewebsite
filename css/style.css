@@ -3342,8 +3342,13 @@ footer.footer2 {
   font-weight: bold;
 }
 
+.dual-content-image {
+  padding:0px;
+}
+
 .info-image img {
  height: 482px; 
+ width: 100%;
 }
 
 .contact-heading p {
@@ -12366,7 +12371,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .dual-content-blue .dual-info {
-    padding: 50px 35px !important;
+    padding: 25px 25px 10px 25px !important;
   }
 
   .folio-main-2col .folio-main-item {
@@ -12788,6 +12793,12 @@ a.eg-henryharrison-element-2 {
 
   /* marketplaces */
 
+  .info-image img {
+    /* margin-bottom: 15px; */
+    height: 354px;
+    width: 100%;
+  }
+
   .contact-heading p {
     font-size: 21px;
   }
@@ -13174,6 +13185,7 @@ a.eg-henryharrison-element-2 {
     text-decoration: underline;
   }
 /* ---Marketplaces--- */
+
 .marketplaces-cart{
   padding:0;
 }
