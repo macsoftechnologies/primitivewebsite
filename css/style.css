@@ -1380,7 +1380,15 @@ h4.custom-head {
 }
 
 .five-step img {
-  height: 371px;
+  height: 464px;
+}
+
+.five-step1 {
+  padding: 0px
+}
+
+.five-step1 img {
+  height: 465px;
 }
 
 .five-step-section {
@@ -1986,7 +1994,7 @@ footer.footer2 {
   margin-bottom: 0px;
   padding-top: 40px;
   padding-bottom: 35px;
-  background: #6d3695;
+  background: url(../images/other/careers.jpg);
   /* background: url(../images/other/section04.jpg); */
 }
 
@@ -3339,7 +3347,7 @@ footer.footer2 {
 }
 
 .contact-heading p {
-  color:#171f4d; 
+  color:#5569df; 
   font-size: 30px;
   margin-bottom: 15px;
 }
@@ -3450,6 +3458,10 @@ footer.footer2 {
   font-size: 50px;
 }
 
+.list-image {
+  text-align: center;
+}
+
 /**\
 Start of step-features-mobile Styles
 \**/
@@ -3465,7 +3477,7 @@ Start of step-features-mobile Styles
   margin-bottom: 10px;
 }
 .step-features-mobile .list-items-container {
-  display: flex;
+  /*display: flex;*/
 }
 .step-features-mobile .pe-7s-monitor {
   font-size: 50px;
@@ -3525,8 +3537,9 @@ Start of step-features-mobile Styles
 /* .rev_slider_5_2_wrapper{
   height: 900px !important;
 } */
-.ul-dots{
-  margin-left: 17px;
+.ul-dots {
+  text-align: center;
+  /*margin-left: 17px;*/
 } 
 .ul-dots li{
   /* list-style-type:disc; */
@@ -3644,7 +3657,8 @@ Start of step-features-mobile Styles
 .bg-image img {
   /* background-position:center;
   background-repeat: no-repeat; */
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 100%;
 
 }
 
@@ -7771,7 +7785,7 @@ p.stars a.star-5:after {
 
 .polygon-text-box {
   position: relative;
-  /* text-align: justify; */
+  text-align: justify;
 }
 
 .polygon-text-box ul {
@@ -11805,6 +11819,41 @@ a.eg-henryharrison-element-2 {
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   /* --care-- */
+  .steps-data {
+    text-align: initial;  
+    padding: 20px 20px 20px 20px;
+  }
+
+  .steps-data1 {
+    padding: 22px 22px 22px 22px;
+  }
+
+  .five-step1 {
+    padding: 0px;
+  }
+
+  .five-step img {
+    height: 299px;
+  }
+
+  .five-step-heading p {
+    font-size :15px;
+    padding: 15px;
+  }
+
+  .five-step1 img {
+    height: 300px;
+  }
+
+  .cta-box-blue {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .list-image {
+    text-align: center;
+  }
+
   .step2 {
     display: flex;
     /* padding: 0px !important; */
@@ -11838,7 +11887,7 @@ a.eg-henryharrison-element-2 {
 
   .bg-image-text {
     top: 75% !important;
-    right: 5% !important;
+    right: -3% !important;
   } 
 
   .bg-image-text p {
@@ -12761,6 +12810,11 @@ a.eg-henryharrison-element-2 {
   }
 
   /* xplore */
+
+  .xplore-section-image {
+    padding:0px;
+  }
+
   .xplore-section .row {
     margin:0px;
   }
@@ -12857,7 +12911,12 @@ a.eg-henryharrison-element-2 {
 .single{
   padding-top: 20px;
 }
+
 /**---care---**/
+.fivestep a {
+  color :#0505fa;
+}
+
 .bg-image {
   background-position:center center;
   position: relative;
@@ -12865,16 +12924,16 @@ a.eg-henryharrison-element-2 {
 .bg-image-text {
   position:absolute;
   top:77%;
-  right: 3%;
+  right: 0%;
 }
 .bg-image-text h4 {
   text-align: end;
-    color: white;
-    /* text-transform: capitalize; */
-    letter-spacing: 1px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: white;
+  /* text-transform: capitalize; */
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .bg-image-text p {
   text-align:end;
@@ -12908,12 +12967,12 @@ a.eg-henryharrison-element-2 {
 }
 
 .solution-section img {
-  max-width: 1350px;
+  /* max-width: 1350px; */
   width: 100%;
 }
 
 .exchange-section img {
-  max-width: 1350px;
+  /* max-width: 1350px; */
   width: 100%;
 }
 
@@ -12924,8 +12983,13 @@ a.eg-henryharrison-element-2 {
 .xplore-section .container-fluid {
   padding: 0px;
 }
+
 .xplore-section img {
   width: 100%;
+}
+
+.xplore-section-image img {
+  padding:0px;
 }
 
 .xplore-theme li a:hover{
@@ -13165,6 +13229,12 @@ a.eg-henryharrison-element-2 {
     font-size:34px !important;
     left:40px !important;
   }
+}
+
+@media only screen and (max-width: 1088px) and (min-width: 1020px){
+.mission-slide {
+padding: 39px 80px !important;
+
 }
 
 
