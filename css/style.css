@@ -1380,7 +1380,11 @@ h4.custom-head {
 }
 
 .five-step img {
-  height: 464px;
+  height: 488px;
+}
+
+.five-step-img img {
+  height: 502px;
 }
 
 .five-step1 {
@@ -1406,11 +1410,15 @@ h4.custom-head {
 }
 
 .steps-data {
-  padding: 60px 10px 55px 25px;
+  padding: 50px 10px 41px 25px;
 }
 
 .steps-data1 {
-  padding: 60px 10px 55px 50px;
+  padding: 50px 10px 55px 50px;
+}
+
+.steps-data2 {
+  padding: 50px 10px 66px 50px;
 }
 
 .steps-section p {
@@ -2020,9 +2028,9 @@ footer.footer2 {
 
 .cta-box-gold {
   margin-bottom: 0px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background: #ffbb00;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background: url(../images/xplore/contact.jpg)
 }
 
 .cta-box-blue h3 {
@@ -10184,7 +10192,7 @@ home-business-info .container {
   cursor: pointer;
   position: relative;
   z-index: 2;
-  color: #111111;
+  color: #f5f5f5;
   margin-top: 40px;
 }
 
@@ -11824,12 +11832,42 @@ a.eg-henryharrison-element-2 {
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   /* --care-- */
+
+  .care-responsive {
+    padding:0px;
+  }
+
+  .care-responsive .row {
+    margin:0px;
+  }
+
+  .care-responsive .logo {
+    padding: 0px;
+  }
+
+  .care-responsive .logo-icon {
+    padding: 0px;
+    text-align: end;
+  }
+
+  .page-data {
+    margin-bottom:0px;
+  }
+
+  .page-content .row {
+    margin:0px;
+  }
+  
   .steps-data {
     text-align: initial;  
     padding: 20px 20px 20px 20px;
   }
 
   .steps-data1 {
+    padding: 22px 22px 22px 22px;
+  }
+
+  .steps-data2 {
     padding: 22px 22px 22px 22px;
   }
 
@@ -11851,8 +11889,18 @@ a.eg-henryharrison-element-2 {
   }
 
   .cta-box-blue {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .contact-name p {
+    font-size: 25px !important;
+    margin-bottom: 10px;
+  }
+
+  .contact-section p {
+    color: white;
+    font-size: 15px;
   }
 
   .list-image {
@@ -11887,11 +11935,15 @@ a.eg-henryharrison-element-2 {
   }
 
   .care-btn {
-    font-size:14px !important;
+    font-size:15px !important;
+  }
+
+  .bttn {
+    margin: 0px 6px 0px 0px;
   }
 
   .bg-image-text {
-    top: 75% !important;
+    top: 82% !important;
     right: -3% !important;
   } 
 
@@ -11905,7 +11957,7 @@ a.eg-henryharrison-element-2 {
 
   .bg-image img {
     width: 100%;
-    height: 300px;
+    height: 340px;
   }
   .slick-track {
     flex-wrap: wrap;
@@ -12851,7 +12903,7 @@ a.eg-henryharrison-element-2 {
 
   .contact-name1 p {
     color: #181718;
-    font-size: 22px !important;
+    font-size: 15px !important;
     margin-bottom: 10px;
     letter-spacing: 3px;
   }
@@ -12864,7 +12916,7 @@ a.eg-henryharrison-element-2 {
 
   .xplore-text p {
     letter-spacing: 9px;
-    font-size: 17px !important;
+    font-size: 14px !important;
     margin-bottom: 5px;
   }
 
@@ -12934,8 +12986,8 @@ a.eg-henryharrison-element-2 {
 }
 .bg-image-text {
   position:absolute;
-  top:77%;
-  right: 0%;
+  top:85%;
+  right: 2%;
 }
 .bg-image-text h4 {
   text-align: end;
@@ -12958,7 +13010,7 @@ a.eg-henryharrison-element-2 {
   padding-right: 5px;
 }
 .care-theme li a:hover{
-  color: #9134a0 !important;
+  color: #f5f5f5 !important;
 }
 .care-theme h1{
   color: #9134a0;
@@ -13004,7 +13056,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .xplore-theme li a:hover{
-  color: #ffbb00 !important;
+  color: #f5f5f5 !important;
 }
 .xplore-data ul li {
   list-style-type: disc;
