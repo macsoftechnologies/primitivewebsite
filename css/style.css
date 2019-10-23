@@ -1381,6 +1381,7 @@ h4.custom-head {
 
 .five-step img {
   height: 488px;
+  width: 100%;
 }
 
 .five-step-img img {
@@ -11849,7 +11850,14 @@ a.eg-henryharrison-element-2 {
   }
   
   /* --care-- */
-
+  
+  .step-section-tab {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .step-section-tab div {
+    width: 100%;
+  }
   .care-responsive {
     padding:0px;
   }
@@ -11894,6 +11902,7 @@ a.eg-henryharrison-element-2 {
 
   .five-step img {
     height: 299px;
+    width: 100%;
   }
 
   .five-step-heading p {
@@ -11903,6 +11912,7 @@ a.eg-henryharrison-element-2 {
 
   .five-step1 img {
     height: 300px;
+    width: 100%;
   }
 
   .cta-box-blue {
@@ -11953,6 +11963,7 @@ a.eg-henryharrison-element-2 {
 
   .care-btn {
     font-size:15px !important;
+
   }
 
   .bttn {
@@ -11974,7 +11985,7 @@ a.eg-henryharrison-element-2 {
 
   .bg-image img {
     width: 100%;
-    height: 340px;
+    height: 280px;
   }
   .slick-track {
     flex-wrap: wrap;
@@ -13184,9 +13195,36 @@ a.eg-henryharrison-element-2 {
   }
 }
 @media only screen and (max-width: 992px) and (min-width: 768px){
-  /* .header-font-styling2 {
-    line-height: 10px;
-  } */
+  /* --tab view for care page-- */
+
+  .problem-section-images {
+    text-align: center;
+  }
+  .problem-section-content1 {
+    text-align: center;
+  }
+  .five-step1 img {
+    width: 100%;
+  }
+  .step-section-tab {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .care-responsive #open-left {
+   color: #ffffff;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+}
+  /* .step2 {
+    display: flex;
+    /* padding: 0px !important; */
+    /* flex-direction: column-reverse; */
+  /* }  */ 
+  /* --tab view for resources page-- */
   .resources-header .header-responsive{
     margin-left: 0px !important;
   }
@@ -13324,8 +13362,23 @@ a.eg-henryharrison-element-2 {
 @media only screen and (max-width: 1088px) and (min-width: 1020px){
 .mission-slide {
 padding: 39px 80px !important;
-
 }
 }
-
-
+@media (min-width:992px) and (max-width:1145px){
+  .steps-data1{ 
+    padding:35px 10px 45px 50px;
+  }
+  .five-step1 img {
+    height: 490px;
+  }
+}
+@media (min-width:1145px) and (max-width:1312px){
+  .five-step1 img {
+    height: 490px;
+  }
+}
+@media (min-width:992px) and (max-width:1145px){
+  .five-step img{
+    height: 513px;
+  }
+}
