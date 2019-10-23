@@ -1,0 +1,14 @@
+Care image-sizes:
+haeder-imgae:
+1920x900
+Problem-section:
+images : 70px;
+
+Solution-section:
+image : 1899x941
+
+Key-assessments section:
+image : 1895x852
+
+steps-section:
+images : 695x440
