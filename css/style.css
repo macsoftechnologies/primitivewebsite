@@ -11836,6 +11836,7 @@ a.eg-henryharrison-element-2 {
   .resources-header .container {
     padding: 0px;
   }
+  
   /* --care-- */
   .steps-data {
     text-align: initial;  
@@ -13133,6 +13134,12 @@ a.eg-henryharrison-element-2 {
   } */
   .resources-header .header-responsive{
     margin-left: 0px !important;
+  }
+  .resources-header .header-responsive .logo {
+    padding-left: 0px !important;
+  }
+  .resources-header .header-responsive .icon-response {
+    padding-right: 0px !important;
   }
   .col-height-mob{
     height: 284px;;
