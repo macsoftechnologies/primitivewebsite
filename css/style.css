@@ -12902,6 +12902,23 @@ a.eg-henryharrison-element-2 {
 
   /* xplore */
 
+  .xplore-responsive {
+    padding:0px;
+  }
+
+  .xplore-responsive .row {
+    margin:0px;
+  }
+
+  .xplore-responsive .logo {
+    padding: 0px;
+  }
+
+  .xplore-responsive .logo-icon {
+    padding: 0px;
+    text-align: end;
+  }
+
   .xplore-section-image {
     padding:0px;
   }
@@ -12938,8 +12955,8 @@ a.eg-henryharrison-element-2 {
 
   .xplore-contact p {
     color: #000000;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
   }
 
   .xplore-text p {
