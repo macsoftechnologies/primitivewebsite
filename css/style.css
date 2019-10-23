@@ -11838,6 +11838,9 @@ a.eg-henryharrison-element-2 {
   .resources-header .icon-response {
     text-align: end;
   }
+  .site-content h5 {
+    letter-spacing: 0px;
+  }
   .resources-header .header-responsive {
     margin-left: 0px !important;
   }
