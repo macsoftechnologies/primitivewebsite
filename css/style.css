@@ -3395,7 +3395,7 @@ footer.footer2 {
 }
 
 .info-image img {
-  height: 482px;
+  height: 461px;
   width: 100%;
 }
 
@@ -11708,7 +11708,16 @@ a.eg-henryharrison-element-2 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-
+  .slotholder {
+    height: 60% !important;
+  }
+  .slider-text {
+    top:25%;
+    font-size: 27px;
+  }
+  .tp-fullwidth-forcer {
+    height: 420px !important;
+  }
   /* .scrolldown-icon1{
     visibility: visible;
     left:270px !important;
@@ -13154,6 +13163,22 @@ a.eg-henryharrison-element-2 {
   }
 
   /* marketplaces */
+  .market-responsive {
+    padding: 0px;
+  }
+
+  .market-responsive .row {
+    margin: 0px;
+  }
+
+  .market-responsive .logo {
+    padding: 0px;
+  }
+
+  .market-responsive .logo-icon {
+    padding: 0px;
+    text-align: end;
+  }
 
   .market-btn {
     font-size: 13px !important;
