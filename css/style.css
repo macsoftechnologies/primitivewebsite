@@ -149,6 +149,19 @@ textarea:focus {
 }
 
 /*==========================================================================
+   PAGE LOADER
+    ========================================================================== */
+#cover {
+  background: url("../images/page-loader.gif") no-repeat scroll center center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+/*==========================================================================
     2. HEADER
     ========================================================================== */
 
@@ -13910,4 +13923,20 @@ padding: 39px 80px !important;
     margin: 0px;
     height: 477px;
   }
+  /* --market places-- */
+  .images-section p {
+    padding:187px 40px;
+  }
+  .market-info {
+    height: 460px;
+  }
+  .dual-info {
+    height: 460px;
+  }
+.dual-content-blue .dual-info {
+  padding: 55px 135px !important;
+} 
+.theme-text {
+  letter-spacing: 1px;
+}
 }
