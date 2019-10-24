@@ -86,7 +86,7 @@ jQuery(document).ready(function ($) {
     ========================================================================== */
 
     $(window).scroll(function () {
-        var sticky = $('.home-responsive'),
+        var sticky = $('#sticky-header'),
             scroll = $(window).scrollTop();
 
         if (scroll >= 100) sticky.addClass('fixed');
