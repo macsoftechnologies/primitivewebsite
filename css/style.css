@@ -7864,6 +7864,7 @@ p.stars a.star-5:after {
 }
 
 .polygon-text-box {
+  margin-bottom: 15px;
   position: relative;
   text-align: justify;
 }
@@ -11718,6 +11719,13 @@ a.eg-henryharrison-element-2 {
   .tp-fullwidth-forcer {
     height: 420px !important;
   }
+  .bg-image-text h4 {
+    font-size: 14px !important;
+  }
+
+  .bg-image-text p {
+    font-size: 11px;
+  }
   /* .scrolldown-icon1{
     visibility: visible;
     left:270px !important;
@@ -12238,9 +12246,6 @@ a.eg-henryharrison-element-2 {
     font-size: 10px;
   }
 
-  .bg-image-text h4 {
-    font-size: 14px !important;
-  }
 
   .bg-image img {
     width: 100%;
@@ -13226,6 +13231,11 @@ a.eg-henryharrison-element-2 {
   }
 
   /* xplore */
+  .bg-image-text h4 {
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    letter-spacing: 2px !important;
+  }
 
   .xplore-responsive {
     padding: 0px;
@@ -13427,7 +13437,11 @@ a.eg-henryharrison-element-2 {
 }
 
 .xplore-content {
-  padding: 35px 10px 35px 10px;
+  padding: 35px 10px 0px 10px;
+}
+
+.xplore-section .row {
+  margin:0px;
 }
 
 .xplore-section .container-fluid {
@@ -13436,11 +13450,18 @@ a.eg-henryharrison-element-2 {
 
 .xplore-section img {
   width: 100%;
-
+}
+.xplore-section-image {
+  padding:0px;
 }
 
 .xplore-section-image img {
-  padding: 0px;
+  /* padding:0px; */
+  height: fit-content;
+}
+
+.xplore-country-section {
+  margin-top:15px;
 }
 
 .xplore-theme li a:hover {
@@ -13642,7 +13663,7 @@ a.eg-henryharrison-element-2 {
   .step-container {
     display: inherit;
     /* flex-wrap: wrap */
-    =======
+  }
 
     /* --tab view for resources page-- */
     .resources-header .header-responsive {
@@ -13687,9 +13708,9 @@ a.eg-henryharrison-element-2 {
       color: #ffbb00;
     }
 
-    .bg-image-text h4 {
+    /* .bg-image-text h4 {
       font-size: 14px !important;
-    }
+    } */
 
     .bg-image-text h6 {
       text-align: end;
@@ -13722,11 +13743,38 @@ a.eg-henryharrison-element-2 {
   .rewards-styling-last {
     margin-left: 40px;
   }
+   /* --tab view for market places page-- */
+   .dual-content .dual-info,.info-image {
+     height: 460.4px;
+   }
+   /* --tab view for xplore page-- */
+   
+   /* .bg-image-text h4 {
+      font-size: 14px !important;
+   } */
+   .bg-image-text h6 {
+     text-align: end;
+     color: #ffffff;
+     letter-spacing: 0px;
+   }
+   .xplore-content {
+     padding: 15px 15px;
+   }
+   .xplore-section .row {
+     margin-left: 0px;
+   }
+   .xplore-section-image {
+     padding: 0px !important;
+     height: fit-content;
+   }
+   .bg-image-text p {
+     font-size: 10px;
+   }
 }
 
-=======>>>>>>>1d1882fad50ccdf634388f776a4e4d2b923e0350 @media only screen and (max-width:380px) {
-  .video-footer h5 {
-    margin-right: 0px !important;
+@media only screen and (max-width:380px) {
+    .video-footer h5 {
+    margin-right:0px !important;
   }
 
   .video-footer {
@@ -13902,8 +13950,18 @@ padding: 39px 80px !important;
     height: 477px;
   }
 }
-
+@media (min-width:992px) and (max-width:1056px) {
+    /* --xplore */
+  .xplore-content{
+    padding: 17px 10px 0px 10px  !important;
+  }
+  .polygon-text-box {
+    margin-bottom: 0px;
+  }
+}
 @media (min-width:992px) and (max-width:1600px) {
+  /* --xplore */
+
   .five-step {
     padding: 0px;
     margin: 0px;
