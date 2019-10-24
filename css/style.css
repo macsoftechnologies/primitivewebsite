@@ -13522,6 +13522,7 @@ a.eg-henryharrison-element-2 {
 .value-mission {
   /* background-color: #030e36; */
   max-width: 1600px;
+  padding: 0px;
 }
 
 .value-mission .row {
@@ -13983,4 +13984,7 @@ padding: 39px 80px !important;
 .theme-text {
   letter-spacing: 1px;
 }
+}
+.container .value-mission {
+  padding: 0px !important;
 }
