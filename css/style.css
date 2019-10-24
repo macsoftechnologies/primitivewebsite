@@ -1380,13 +1380,13 @@ h4.custom-head {
 }
 
 .five-step img {
-  height: 488px;
+  height: 477px;
   width: 100%;
 }
 
-.five-step-img img {
+/* .five-step-img img {
   height: 502px;
-}
+} */
 
 .five-step1 {
   padding: 0px
@@ -1419,7 +1419,7 @@ h4.custom-head {
 }
 
 .steps-data2 {
-  padding: 50px 10px 66px 50px;
+  padding: 50px 10px 55px 50px;
 }
 
 .steps-section p {
@@ -13594,6 +13594,13 @@ padding: 39px 80px !important;
 }
 @media (min-width:992px) and (max-width:1145px){
   .five-step img{
-    height: 513px;
+    height: 477px;
+  }
+}
+@media (min-width:992px) and (max-width:1600px) {
+  .five-step {
+    padding:0px;
+    margin:0px;
+    height:477px;
   }
 }
