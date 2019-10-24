@@ -57,8 +57,7 @@ jQuery(document).ready(function ($) {
         asNavFor: '.testimonials-carousel',
         focusOnSelect: true,
 
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 5,
@@ -75,6 +74,18 @@ jQuery(document).ready(function ($) {
         ]
     });
 
+
+    /* ==========================================================================
+    STICKY HEADER 
+    ========================================================================== */
+
+    $(window).scroll(function () {
+        var sticky = $('.home-responsive'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 100) sticky.addClass('fixed');
+        else sticky.removeClass('fixed');
+    });
 
     /* ==========================================================================
     HEADER CART
