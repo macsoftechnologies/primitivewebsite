@@ -170,6 +170,8 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #1674D1;
+  height: auto;
 }
 
 header {
@@ -11710,14 +11712,14 @@ a.eg-henryharrison-element-2 {
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .slotholder {
-    height: 60% !important;
+    height: 55% !important;
   }
   .slider-text {
     top:25%;
     font-size: 27px;
   }
   .tp-fullwidth-forcer {
-    height: 420px !important;
+    height: 425px !important;
   }
   .bg-image-text h4 {
     font-size: 14px !important;
@@ -13960,7 +13962,21 @@ padding: 39px 80px !important;
     margin-bottom: 0px;
   }
 }
+@media (min-width:992px) and (max-width:1300px) {
+  .slotholder {
+    height: 72% !important;
+  }
+  .tp-fullwidth-forcer{
+  height: 568px !important;
+}
+.slider-text {
+font-size: 30px !important;
+top: 30% !important;
+}
+}
+  
 @media (min-width:992px) and (max-width:1600px) {
+
   /* --xplore */
 
   .five-step {
