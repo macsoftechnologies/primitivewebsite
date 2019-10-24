@@ -9309,7 +9309,7 @@ Contact Form
   font-size: 12px;
   width: 100%;
   font-weight: bold;
-  letter-spacing: 0.3em;
+  /* letter-spacing: 0.3em; */
   display: table;
 }
 /* 
@@ -9388,7 +9388,130 @@ Contact Form
 }
 
 .onepage-folio-overlay h4 a {
-  color: #111111;
+  color: #490188;
+  font-weight: bold;
+}
+
+.events-heading h4 a {
+  color:#eb1936;
+  font-weight: bold;
+}
+
+.events-heading .onepage-folio-overlay .ico {
+  font-size: 16px;
+  line-height: 26px;
+  color: #eb1936;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid #eb1936;
+  display: table;
+  width: 30px;
+  height: 30px;
+  padding-left: 11px;
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: .4s;
+}
+
+.xplore-heading h4 a {
+  color:#fbca03;
+  font-weight: bold;
+}
+
+.xplore-heading .onepage-folio-overlay .ico {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fbca03;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid #fbca03;
+  display: table;
+  width: 30px;
+  height: 30px;
+  padding-left: 11px;
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: .4s;
+}
+
+.perogon-heading h4 a {
+  color:#fa3d3d;
+  font-weight: bold;
+}
+
+.perogon-heading .onepage-folio-overlay .ico {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fa3d3d;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid #fa3d3d;
+  display: table;
+  width: 30px;
+  height: 30px;
+  padding-left: 11px;
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: .4s;
+}
+
+
+.performance-heading h4 a {
+  color:#44bb01;
+  font-weight: bold;
+}
+
+.performance-heading .onepage-folio-overlay .ico {
+  font-size: 16px;
+  line-height: 26px;
+  color: #44bb01;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid #44bb01;
+  display: table;
+  width: 30px;
+  height: 30px;
+  padding-left: 11px;
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: .4s;
+}
+
+
+.elevate-heading h4 a {
+  color:#00d4ff;
+  font-weight: bold;
+}
+
+.elevate-heading .onepage-folio-overlay .ico {
+  font-size: 16px;
+  line-height: 26px;
+  color: #00d4ff;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid #00d4ff;
+  display: table;
+  width: 30px;
+  height: 30px;
+  padding-left: 11px;
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: .4s;
 }
 
 .onepage-folio-overlay p {
@@ -9402,10 +9525,10 @@ Contact Form
 .onepage-folio-overlay .ico {
   font-size: 16px;
   line-height: 26px;
-  color: #1674D1;
+  color: #490188;
   font-weight: 400;
   border-radius: 50%;
-  border: 1px solid #1674D1;
+  border: 1px solid #490188;
   display: table;
   width: 30px;
   height: 30px;
@@ -9714,6 +9837,10 @@ home-business-info .container {
 
 .text-center {
   padding: 20px 0px;
+}
+
+.text-center p {
+  color: #f5f5f5;
 }
 
 .vc_element_title_wrap {
@@ -11834,6 +11961,26 @@ a.eg-henryharrison-element-2 {
   color: #ffffff !important;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+
+  /* home */
+
+  .home-responsive {
+    padding:0px;
+  }
+
+  .home-responsive .row {
+    margin:0px;
+  }
+
+  .home-responsive .logo {
+    padding: 0px;
+  }
+
+  .home-responsive .logo-icon {
+    padding: 0px;
+    text-align: end;
+  }
+
   /* --resources-- */
   .resources-header .icon-response {
     text-align: end;
@@ -12277,7 +12424,6 @@ a.eg-henryharrison-element-2 {
   .home-onepage-folio .padding-100 {
     padding-top: 30px !important;
   }
-
   .index-info img {
     margin-bottom: 25px;
   }
@@ -12849,6 +12995,11 @@ a.eg-henryharrison-element-2 {
 
   /* marketplaces */
 
+  .market-btn {
+    font-size: 13px !important;
+    padding: 6px 30px;
+  }
+
   .info-image img {
     /* margin-bottom: 15px; */
     height: 354px;
@@ -12856,7 +13007,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .contact-heading p {
-    font-size: 21px;
+    font-size: 13px;
   }
 
   .images-section p {
@@ -13265,6 +13416,12 @@ a.eg-henryharrison-element-2 {
   }
 /* ---Marketplaces--- */
 
+.market-btn{
+  font-weight: 700;
+  font-size: 21px;
+  color: #9134a0 !important;
+}
+
 .marketplaces-cart{
   padding:0;
 }
@@ -13339,10 +13496,23 @@ a.eg-henryharrison-element-2 {
 }
 
 @media only screen and (max-width: 1088px) and (min-width: 1020px){
-.mission-slide {
-padding: 39px 80px !important;
-
+  .mission-slide {
+  padding: 39px 80px !important;
+  }
 }
+
+
+.brochure-section p {
+  color: #f5f5f5;
+  background: #1674D1;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+}
+
+.brochure-section a {
+  color: #f5f5f5;
+  text-decoration: underline;
 }
 
 
