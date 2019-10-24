@@ -13213,7 +13213,6 @@ a.eg-henryharrison-element-2 {
 }
 @media only screen and (max-width: 992px) and (min-width: 768px){
   /* --tab view for care page-- */
-
   .problem-section-images {
     text-align: center;
   }
@@ -13235,12 +13234,6 @@ a.eg-henryharrison-element-2 {
   footer {
     padding: 20px 0px;
   }
-}
-  /* .step2 {
-    display: flex;
-    /* padding: 0px !important; */
-    /* flex-direction: column-reverse; */
-  /* }  */ 
   /* --tab view for resources page-- */
   .resources-header .header-responsive{
     margin-left: 0px !important;
@@ -13258,14 +13251,16 @@ a.eg-henryharrison-element-2 {
     display: flex;
     flex-wrap: wrap
   }
-  
   .rewards-styling{
     margin-left: 25px;
   }
   .rewards-styling-last{
     margin-left: 40px;
   }
+   /* --tab view for market places page-- */
+   
 }
+
 @media only screen and (max-width:380px) {
     .video-footer h5 {
     margin-right:0px !important;
