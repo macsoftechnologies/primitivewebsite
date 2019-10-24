@@ -13871,4 +13871,20 @@ padding: 39px 80px !important;
     margin: 0px;
     height: 477px;
   }
+  /* --market places-- */
+  .images-section p {
+    padding:187px 40px;
+  }
+  .market-info {
+    height: 460px;
+  }
+  .dual-info {
+    height: 460px;
+  }
+.dual-content-blue .dual-info {
+  padding: 55px 135px !important;
+} 
+.theme-text {
+  letter-spacing: 1px;
+}
 }
