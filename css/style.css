@@ -13236,7 +13236,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .xplore-content {
-  padding: 35px 10px 35px 10px;
+  padding: 35px 10px 0px 10px;
 }
 
 .xplore-section .container-fluid {
@@ -13250,6 +13250,7 @@ a.eg-henryharrison-element-2 {
 
 .xplore-section-image img {
   padding:0px;
+  height: fit-content;
 }
 
 .xplore-theme li a:hover{
@@ -13414,9 +13415,7 @@ a.eg-henryharrison-element-2 {
      height: 460.4px;
    }
    /* --tab view for xplore page-- */
-   .footer-widget li a:hover {
-     color: #ffbb00;
-   }
+   
    .bg-image-text h4 {
       font-size: 14px !important;
    }
