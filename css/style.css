@@ -11699,7 +11699,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .dual-info {
-    padding: 70px 70px !important;
+    padding: 160px 70px !important;
   }
 
   .dual-content-right .dual-img {
@@ -11708,7 +11708,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .dual-content-blue .dual-info {
-    padding: 70px 70px !important;
+    padding: 100px 70px !important;
   }
 
   .item-price-table {
@@ -11740,7 +11740,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .container {
-    max-width: 850px;
+    /* max-width: 850px; */
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -11870,7 +11870,7 @@ a.eg-henryharrison-element-2 {
     cursor: pointer;
     position: relative;
     z-index: 2;
-    color: #111111;
+    color: #ffffff;
     margin-top: 34px;
   }
 
@@ -13245,6 +13245,7 @@ a.eg-henryharrison-element-2 {
 
 .xplore-section img {
   width: 100%;
+  
 }
 
 .xplore-section-image img {
@@ -13409,7 +13410,34 @@ a.eg-henryharrison-element-2 {
     margin-left: 40px;
   }
    /* --tab view for market places page-- */
-   
+   .dual-content .dual-info,.info-image {
+     height: 460.4px;
+   }
+   /* --tab view for xplore page-- */
+   .footer-widget li a:hover {
+     color: #ffbb00;
+   }
+   .bg-image-text h4 {
+      font-size: 14px !important;
+   }
+   .bg-image-text h6 {
+     text-align: end;
+     color: #ffffff;
+     letter-spacing: 0px;
+   }
+   .xplore-content {
+     padding: 15px 15px;
+   }
+   .xplore-section .row {
+     margin-left: 0px;
+   }
+   .xplore-section-image {
+     padding: 0px !important;
+     height: fit-content;
+   }
+   .bg-image-text p {
+     font-size: 10px;
+   }
 }
 
 @media only screen and (max-width:380px) {
