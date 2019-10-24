@@ -7851,6 +7851,7 @@ p.stars a.star-5:after {
 }
 
 .polygon-text-box {
+  margin-bottom: 15px;
   position: relative;
   text-align: justify;
 }
@@ -13392,18 +13393,28 @@ a.eg-henryharrison-element-2 {
   padding: 35px 10px 0px 10px;
 }
 
+.xplore-section .row {
+  margin:0px;
+}
+
 .xplore-section .container-fluid {
   padding: 0px;
 }
 
 .xplore-section img {
   width: 100%;
-
+}
+.xplore-section-image {
+  padding:0px;
 }
 
 .xplore-section-image img {
-  padding:0px;
+  /* padding:0px; */
   height: fit-content;
+}
+
+.xplore-country-section {
+  margin-top:15px;
 }
 
 .xplore-theme li a:hover {
