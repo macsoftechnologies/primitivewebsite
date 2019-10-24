@@ -1395,13 +1395,13 @@ h4.custom-head {
 }
 
 .five-step img {
-  height: 488px;
+  height: 477px;
   width: 100%;
 }
 
-.five-step-img img {
+/* .five-step-img img {
   height: 502px;
-}
+} */
 
 .five-step1 {
   padding: 0px
@@ -1434,7 +1434,7 @@ h4.custom-head {
 }
 
 .steps-data2 {
-  padding: 50px 10px 66px 50px;
+  padding: 50px 10px 55px 50px;
 }
 
 .steps-section p {
@@ -11777,7 +11777,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .dual-info {
-    padding: 70px 70px !important;
+    padding: 160px 70px !important;
   }
 
   .dual-content-right .dual-img {
@@ -11786,7 +11786,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .dual-content-blue .dual-info {
-    padding: 70px 70px !important;
+    padding: 100px 70px !important;
   }
 
   .item-price-table {
@@ -11818,7 +11818,7 @@ a.eg-henryharrison-element-2 {
   }
 
   .container {
-    max-width: 850px;
+    /* max-width: 850px; */
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -11948,7 +11948,7 @@ a.eg-henryharrison-element-2 {
     cursor: pointer;
     position: relative;
     z-index: 2;
-    color: #111111;
+    color: #ffffff;
     margin-top: 34px;
   }
 
@@ -13398,6 +13398,7 @@ a.eg-henryharrison-element-2 {
 
 .xplore-section img {
   width: 100%;
+
 }
 
 .xplore-section-image img {
@@ -13539,8 +13540,8 @@ a.eg-henryharrison-element-2 {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
-  /* --tab view for care page-- */
 
+  /* --tab view for care page-- */
   .problem-section-images {
     text-align: center;
   }
@@ -13567,6 +13568,8 @@ a.eg-henryharrison-element-2 {
   footer {
     padding: 20px 0px;
   }
+
+  <<<<<<< HEAD
 }
 
 /* .step2 {
@@ -13601,19 +13604,89 @@ a.eg-henryharrison-element-2 {
   .step-container {
     display: inherit;
     /* flex-wrap: wrap */
+    =======
+
+    /* --tab view for resources page-- */
+    .resources-header .header-responsive {
+      margin-left: 0px !important;
+    }
+
+    .resources-header .header-responsive .logo {
+      padding-left: 0px !important;
+    }
+
+    .resources-header .header-responsive .icon-response {
+      padding-right: 0px !important;
+    }
+
+    .col-height-mob {
+      height: 284px;
+      ;
+    }
+
+    .step-container {
+      display: flex;
+      flex-wrap: wrap
+    }
+
+    .rewards-styling {
+      margin-left: 25px;
+    }
+
+    .rewards-styling-last {
+      margin-left: 40px;
+      >>>>>>>1d1882fad50ccdf634388f776a4e4d2b923e0350
+    }
+
+    /* --tab view for market places page-- */
+    .dual-content .dual-info,
+    .info-image {
+      height: 460.4px;
+    }
+
+    /* --tab view for xplore page-- */
+    .footer-widget li a:hover {
+      color: #ffbb00;
+    }
+
+    .bg-image-text h4 {
+      font-size: 14px !important;
+    }
+
+    .bg-image-text h6 {
+      text-align: end;
+      color: #ffffff;
+      letter-spacing: 0px;
+    }
+
+    .xplore-content {
+      padding: 15px 15px;
+    }
+
+    .xplore-section .row {
+      margin-left: 0px;
+    }
+
+    .xplore-section-image {
+      padding: 0px !important;
+      height: fit-content;
+    }
+
+    .bg-image-text p {
+      font-size: 10px;
+    }
+  }
+
+  <<<<<<< HEAD .rewards-styling {
+    margin-left: 25px;
+  }
+
+  .rewards-styling-last {
+    margin-left: 40px;
   }
 }
 
-.rewards-styling {
-  margin-left: 25px;
-}
-
-.rewards-styling-last {
-  margin-left: 40px;
-}
-}
-
-@media only screen and (max-width:380px) {
+=======>>>>>>>1d1882fad50ccdf634388f776a4e4d2b923e0350 @media only screen and (max-width:380px) {
   .video-footer h5 {
     margin-right: 0px !important;
   }
@@ -13788,6 +13861,14 @@ padding: 39px 80px !important;
 
 @media (min-width:992px) and (max-width:1145px) {
   .five-step img {
-    height: 513px;
+    height: 477px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1600px) {
+  .five-step {
+    padding: 0px;
+    margin: 0px;
+    height: 477px;
   }
 }
