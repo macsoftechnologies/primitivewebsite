@@ -170,6 +170,8 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #1674d1;
+  height: auto;
 }
 
 header {
@@ -7864,7 +7866,7 @@ p.stars a.star-5:after {
 }
 
 .polygon-text-box {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   position: relative;
   text-align: justify;
 }
@@ -11712,13 +11714,16 @@ a.eg-henryharrison-element-2 {
   .slotholder {
     height: 60% !important;
   }
+
   .slider-text {
-    top:25%;
+    top: 25%;
     font-size: 27px;
   }
+
   .tp-fullwidth-forcer {
     height: 420px !important;
   }
+
   .bg-image-text h4 {
     font-size: 14px !important;
   }
@@ -11726,6 +11731,7 @@ a.eg-henryharrison-element-2 {
   .bg-image-text p {
     font-size: 11px;
   }
+
   /* .scrolldown-icon1{
     visibility: visible;
     left:270px !important;
@@ -12167,7 +12173,8 @@ a.eg-henryharrison-element-2 {
   }
 
   .five-step img {
-    height: 299px;
+    /* height: 299px; */
+    height: 100%;
     width: 100%;
   }
 
@@ -12177,7 +12184,8 @@ a.eg-henryharrison-element-2 {
   }
 
   .five-step1 img {
-    height: 300px;
+    /* height: 300px; */
+    height: 100%;
     width: 100%;
   }
 
@@ -12249,7 +12257,8 @@ a.eg-henryharrison-element-2 {
 
   .bg-image img {
     width: 100%;
-    height: 280px;
+    /* height: 280px; */
+    height: 100%;
   }
 
   .slick-track {
@@ -13441,7 +13450,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .xplore-section .row {
-  margin:0px;
+  margin: 0px;
 }
 
 .xplore-section .container-fluid {
@@ -13451,8 +13460,9 @@ a.eg-henryharrison-element-2 {
 .xplore-section img {
   width: 100%;
 }
+
 .xplore-section-image {
-  padding:0px;
+  padding: 0px;
 }
 
 .xplore-section-image img {
@@ -13461,7 +13471,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .xplore-country-section {
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .xplore-theme li a:hover {
@@ -13522,6 +13532,7 @@ a.eg-henryharrison-element-2 {
 .value-mission {
   /* background-color: #030e36; */
   max-width: 1600px;
+  padding: 0;
 }
 
 .value-mission .row {
@@ -13628,7 +13639,6 @@ a.eg-henryharrison-element-2 {
     padding: 20px 0px;
   }
 
-  <<<<<<< HEAD
 }
 
 /* .step2 {
@@ -13651,130 +13661,137 @@ a.eg-henryharrison-element-2 {
 
 .col-height-mob {
   height: 284px;
-  ;
+
 }
 
 .step-container {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 767px) {
+  /* .step-container {
+    display: inherit;
+    flex-wrap: wrap
+  } */
+
+  /* --tab view for resources page-- */
+  .resources-header .header-responsive {
+    margin-left: 0px !important;
+  }
+
+  .resources-header .header-responsive .logo {
+    padding-left: 0px !important;
+  }
+
+  .resources-header .header-responsive .icon-response {
+    padding-right: 0px !important;
+  }
+
+  .col-height-mob {
+    height: 284px;
+    ;
+  }
+
   .step-container {
     display: inherit;
-    /* flex-wrap: wrap */
+    flex-wrap: wrap
   }
 
-    /* --tab view for resources page-- */
-    .resources-header .header-responsive {
-      margin-left: 0px !important;
-    }
-
-    .resources-header .header-responsive .logo {
-      padding-left: 0px !important;
-    }
-
-    .resources-header .header-responsive .icon-response {
-      padding-right: 0px !important;
-    }
-
-    .col-height-mob {
-      height: 284px;
-      ;
-    }
-
-    .step-container {
-      display: flex;
-      flex-wrap: wrap
-    }
-
-    .rewards-styling {
-      margin-left: 25px;
-    }
-
-    .rewards-styling-last {
-      margin-left: 40px;
-      >>>>>>>1d1882fad50ccdf634388f776a4e4d2b923e0350
-    }
-
-    /* --tab view for market places page-- */
-    .dual-content .dual-info,
-    .info-image {
-      height: 460.4px;
-    }
-
-    /* --tab view for xplore page-- */
-    .footer-widget li a:hover {
-      color: #ffbb00;
-    }
-
-    /* .bg-image-text h4 {
-      font-size: 14px !important;
-    } */
-
-    .bg-image-text h6 {
-      text-align: end;
-      color: #ffffff;
-      letter-spacing: 0px;
-    }
-
-    .xplore-content {
-      padding: 15px 15px;
-    }
-
-    .xplore-section .row {
-      margin-left: 0px;
-    }
-
-    .xplore-section-image {
-      padding: 0px !important;
-      height: fit-content;
-    }
-
-    .bg-image-text p {
-      font-size: 10px;
-    }
-  }
-
-  <<<<<<< HEAD .rewards-styling {
+  .rewards-styling {
     margin-left: 25px;
   }
 
   .rewards-styling-last {
     margin-left: 40px;
   }
-   /* --tab view for market places page-- */
-   .dual-content .dual-info,.info-image {
-     height: 460.4px;
-   }
-   /* --tab view for xplore page-- */
-   
-   /* .bg-image-text h4 {
+
+  /* --tab view for market places page-- */
+  .dual-content .dual-info,
+  .info-image {
+    /* height: 460.4px; */
+    height: auto !important;
+  }
+
+  /* --tab view for xplore page-- */
+  .footer-widget li a:hover {
+    color: #ffbb00;
+  }
+
+  /* .bg-image-text h4 {
+      font-size: 14px !important;
+    } */
+
+  .bg-image-text h6 {
+    text-align: end;
+    color: #ffffff;
+    letter-spacing: 0px;
+  }
+
+  .xplore-content {
+    padding: 15px 15px;
+  }
+
+  .xplore-section .row {
+    margin-left: 0px;
+  }
+
+  .xplore-section-image {
+    padding: 0px !important;
+    height: fit-content;
+  }
+
+  .bg-image-text p {
+    font-size: 10px;
+  }
+}
+
+.rewards-styling {
+  margin-left: 25px;
+}
+
+.rewards-styling-last {
+  margin-left: 40px;
+}
+
+/* --tab view for market places page-- */
+.dual-content .dual-info,
+.info-image {
+  height: 460.4px;
+}
+
+/* --tab view for xplore page-- */
+
+/* .bg-image-text h4 {
       font-size: 14px !important;
    } */
-   .bg-image-text h6 {
-     text-align: end;
-     color: #ffffff;
-     letter-spacing: 0px;
-   }
-   .xplore-content {
-     padding: 15px 15px;
-   }
-   .xplore-section .row {
-     margin-left: 0px;
-   }
-   .xplore-section-image {
-     padding: 0px !important;
-     height: fit-content;
-   }
-   .bg-image-text p {
-     font-size: 10px;
-   }
+.bg-image-text h6 {
+  text-align: end;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.xplore-content {
+  padding: 15px 15px;
+}
+
+.xplore-section .row {
+  margin-left: 0px;
+}
+
+.xplore-section-image {
+  padding: 0px !important;
+  height: fit-content;
+}
+
+.bg-image-text p {
+  font-size: 10px;
+}
 }
 
 @media only screen and (max-width:380px) {
-    .video-footer h5 {
-    margin-right:0px !important;
+  .video-footer h5 {
+    margin-right: 0px !important;
   }
 
   .video-footer {
@@ -13950,15 +13967,19 @@ padding: 39px 80px !important;
     height: 477px;
   }
 }
+
 @media (min-width:992px) and (max-width:1056px) {
-    /* --xplore */
-  .xplore-content{
-    padding: 17px 10px 0px 10px  !important;
+
+  /* --xplore */
+  .xplore-content {
+    padding: 17px 10px 0px 10px !important;
   }
+
   .polygon-text-box {
     margin-bottom: 0px;
   }
 }
+
 @media (min-width:992px) and (max-width:1600px) {
   /* --xplore */
 
@@ -13967,20 +13988,25 @@ padding: 39px 80px !important;
     margin: 0px;
     height: 477px;
   }
+
   /* --market places-- */
   .images-section p {
-    padding:187px 40px;
+    padding: 187px 40px;
   }
+
   .market-info {
     height: 460px;
   }
+
   .dual-info {
     height: 460px;
   }
-.dual-content-blue .dual-info {
-  padding: 55px 135px !important;
-} 
-.theme-text {
-  letter-spacing: 1px;
-}
+
+  .dual-content-blue .dual-info {
+    padding: 55px 135px !important;
+  }
+
+  .theme-text {
+    letter-spacing: 1px;
+  }
 }

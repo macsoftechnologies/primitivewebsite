@@ -79,14 +79,14 @@ jQuery(document).ready(function ($) {
     PAGE LOADER 
     ========================================================================== */
     $(window).on('load', function () {
-        $('#cover').fadeOut(1500);
+        $('#cover').fadeOut(1000);
     })
     /* ==========================================================================
     STICKY HEADER 
     ========================================================================== */
 
     $(window).scroll(function () {
-        var sticky = $('.home-responsive'),
+        var sticky = $('#sticky-header'),
             scroll = $(window).scrollTop();
 
         if (scroll >= 100) sticky.addClass('fixed');
