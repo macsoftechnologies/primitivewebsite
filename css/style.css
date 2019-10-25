@@ -170,6 +170,8 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #1674d1;
+  height: auto;
 }
 
 header {
@@ -7864,7 +7866,7 @@ p.stars a.star-5:after {
 }
 
 .polygon-text-box {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   position: relative;
   text-align: justify;
 }
@@ -13530,6 +13532,7 @@ a.eg-henryharrison-element-2 {
 .value-mission {
   /* background-color: #030e36; */
   max-width: 1600px;
+  padding: 0;
 }
 
 .value-mission .row {
@@ -13706,7 +13709,8 @@ a.eg-henryharrison-element-2 {
   /* --tab view for market places page-- */
   .dual-content .dual-info,
   .info-image {
-    height: 460.4px;
+    /* height: 460.4px; */
+    height: auto !important;
   }
 
   /* --tab view for xplore page-- */
