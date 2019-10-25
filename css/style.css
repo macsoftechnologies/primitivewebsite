@@ -1409,6 +1409,10 @@ h4.custom-head {
   margin: 0px;
 }
 
+.five-step {
+  height:477px;
+}
+
 .five-step img {
   height: 477px;
   width: 100%;
@@ -3324,7 +3328,7 @@ footer.footer2 {
 }
 
 .dual-info {
-  padding: 141px 135px 155px 135px !important;
+  padding: 166px 135px 155px 135px !important;
   background: #eee;
   /* background: #1674D1  url(../images/other/service-list-02-021.jpg) repeat scroll 0% 0% !important; */
 }
@@ -8270,6 +8274,18 @@ blockquote.no-margin {
 
 body footer a:hover {
   color: #1674D1;
+}
+
+body .care-footer .footer-widget .fnews a:hover {
+  color: #490188;
+}
+
+body .market-footer .footer-widget .fnews a:hover{
+  color: #5569df;
+}
+
+body .xplore-footer .footer-widget .fnews a:hover{
+  color: #fbca01;
 }
 
 .fprojects li div {
@@ -13355,6 +13371,10 @@ a.eg-henryharrison-element-2 {
   display: none !important;
 } */
 /**---resources---**/
+
+.site-content .resources-videos {
+  max-width:100%;
+}
 .video-footer {
   display: flex;
   margin: 10px 0;
@@ -13468,7 +13488,8 @@ a.eg-henryharrison-element-2 {
 
 .xplore-section-image img {
   /* padding:0px; */
-  height: fit-content;
+  /* height: fit-content; */
+  height: 100%;
 }
 
 .xplore-country-section {
@@ -13532,8 +13553,9 @@ a.eg-henryharrison-element-2 {
 
 .value-mission {
   /* background-color: #030e36; */
-  max-width: 1600px;
+  /* max-width: 1600px; */
   padding: 0;
+  max-width: 100% !important;
 }
 
 .value-mission .row {
@@ -13985,7 +14007,12 @@ padding: 39px 80px !important;
     margin-bottom: 0px;
   }
 }
-
+@media (min-width:992px) {
+  .xplore-section-image img {
+    min-height: 858px !important;
+    height: 100%;
+}
+}
 @media (min-width:992px) and (max-width:1600px) {
   /* --xplore */
 
@@ -14009,7 +14036,7 @@ padding: 39px 80px !important;
   }
 
   .dual-content-blue .dual-info {
-    padding: 55px 135px !important;
+    padding: 95px 80px !important;
   }
 
   .theme-text {
