@@ -1476,6 +1476,7 @@ h4.custom-head {
 
 .problem-section-images {
   text-align: end;
+  -ms-text-align-last:end;
 }
 
 .bg-dark {
@@ -13543,6 +13544,7 @@ a.eg-henryharrison-element-2 {
   background-color: #031557;
   padding: 50px 80px;
   text-align: center;
+  height:250px;
 }
 
 .vision-slide h3 {
@@ -13560,6 +13562,7 @@ a.eg-henryharrison-element-2 {
   background-color: #030e36;
   padding: 50px 80px;
   text-align: center;
+  height:250px;
 }
 
 .mission-slide h3 {
@@ -13675,6 +13678,10 @@ a.eg-henryharrison-element-2 {
     flex-wrap: wrap
   } */
 
+  .vision-slide,.mission-slide {
+    height: auto;
+  }
+
   /* --tab view for resources page-- */
   .resources-header .header-responsive {
     margin-left: 0px !important;
@@ -13690,12 +13697,11 @@ a.eg-henryharrison-element-2 {
 
   .col-height-mob {
     height: 284px;
-    ;
   }
 
   .step-container {
     display: inherit;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
 
   .rewards-styling {
