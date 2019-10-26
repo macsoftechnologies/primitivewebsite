@@ -3241,10 +3241,13 @@ footer.footer2 {
   /* padding-bottom: 155px; */
   /* background-color: #000; */
   /* background-image: url(../images/other/section14.jpg); */
+  position: relative;
+  
 }
 
 .service-list-head img {
   width: 100%;
+  
 }
 
 .service-list-head h1 {
@@ -12100,6 +12103,11 @@ a.eg-henryharrison-element-2 {
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 
+  /* --resources-- */
+  .resources.footer-widget li a:hover {
+    color: #0505fa !important ;
+  }
+
   /* home */
 
   .home-responsive {
@@ -12117,6 +12125,19 @@ a.eg-henryharrison-element-2 {
   .home-responsive .logo-icon {
     padding: 0px;
     text-align: end;
+  }
+  /* ---market places--- */
+  .marketplace-header h1 {
+    font-size: 15px !important;
+    top: 40% !important;
+    left: 11% !important;
+    transform: none !important;
+  }
+  .marketplace-header p {
+    font-size: 10px;
+    top:63% !important;
+    left: 4% !important;
+    transform: none !important;
   }
 
   /* --resources-- */
@@ -13636,6 +13657,18 @@ a.eg-henryharrison-element-2 {
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 
+  /* --tabview for marketplaces-- */
+  .marketplace-header h1 {
+    font-size: 23px !important;
+    transform: none !important;
+    left: 25% !important;
+  }
+  .marketplace-header p {
+    font-size: 15px !important;
+    left: 18% !important;
+    top: 57% !important;
+    transform: none !important;
+  }
   /* --tab view for care page-- */
   .problem-section-images {
     text-align: center;
@@ -14041,5 +14074,59 @@ padding: 39px 80px !important;
 
   .theme-text {
     letter-spacing: 1px;
+  }
+}
+.marketplace-header h1 {
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  transform: translate(-50%);
+}
+.marketplace-header p {
+  position: absolute;
+  top:57%;
+  left: 50%;
+  text-align: center;
+  letter-spacing: 0px;
+  transform: translate(-50%);
+}
+@media (min-width:647px) and (max-width:767px) {
+  .marketplace-header h1 {
+    font-size: 20px !important;
+    left: 23% !important;
+  }
+  .marketplace-header p {
+    font-size: 11px !important;
+    left: 22% !important;
+  }
+}
+ @media (min-width:480px) and (max-width:646px) {
+  .marketplace-header h1 {
+    left: 23% !important;
+  }
+  .marketplace-header p {
+    left: 21% !important;
+    top:60% !important
+  }
+}                                         
+@media (min-width:992px) and (max-width:1200px) {
+  .marketplace-header h1 {
+  font-size: 40px !important;
+  transform: none !important;
+  left: 20% !important;
+  }
+  .marketplace-header p {
+    top: 62% !important;
+    left: 20% !important;
+    transform: none !important;
+  }
+}
+@media (min-width:1200px) and (max-width:1485px) {
+  .marketplace-header h1 {
+    left:25% !important;
+    transform: none !important;
   }
 }
