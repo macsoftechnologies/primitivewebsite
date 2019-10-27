@@ -12127,7 +12127,7 @@ a.eg-henryharrison-element-2 {
     text-align: end;
   }
   /* ---market places--- */
-  .marketplace-header h1 {
+  /* .marketplace-header h1 {
     font-size: 15px !important;
     top: 40% !important;
     left: 11% !important;
@@ -12138,7 +12138,7 @@ a.eg-henryharrison-element-2 {
     top:63% !important;
     left: 4% !important;
     transform: none !important;
-  }
+  } */
 
   /* --resources-- */
   .resources-header .icon-response {
@@ -13658,7 +13658,7 @@ a.eg-henryharrison-element-2 {
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 
   /* --tabview for marketplaces-- */
-  .marketplace-header h1 {
+  /* .marketplace-header h1 {
     font-size: 23px !important;
     transform: none !important;
     left: 25% !important;
@@ -13668,7 +13668,7 @@ a.eg-henryharrison-element-2 {
     left: 18% !important;
     top: 57% !important;
     transform: none !important;
-  }
+  } */
   /* --tab view for care page-- */
   .problem-section-images {
     text-align: center;
@@ -14076,7 +14076,7 @@ padding: 39px 80px !important;
     letter-spacing: 1px;
   }
 }
-.marketplace-header h1 {
+/* .marketplace-header h1 {
   position:absolute;
   top: 40%;
   left: 50%;
@@ -14092,8 +14092,8 @@ padding: 39px 80px !important;
   text-align: center;
   letter-spacing: 0px;
   transform: translate(-50%);
-}
-@media (min-width:647px) and (max-width:767px) {
+} */
+/* @media (min-width:647px) and (max-width:767px) {
   .marketplace-header h1 {
     font-size: 20px !important;
     left: 23% !important;
@@ -14102,8 +14102,8 @@ padding: 39px 80px !important;
     font-size: 11px !important;
     left: 22% !important;
   }
-}
- @media (min-width:480px) and (max-width:646px) {
+} */
+ /* @media (min-width:480px) and (max-width:646px) {
   .marketplace-header h1 {
     left: 23% !important;
   }
@@ -14128,5 +14128,38 @@ padding: 39px 80px !important;
   .marketplace-header h1 {
     left:25% !important;
     transform: none !important;
+  }
+} */
+.centering-text {
+  display: flex;
+  position: relative;;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.marketplace-header {
+  position: absolute;
+}
+.marketplace-header h1,p {
+  letter-spacing: 2px;
+}
+/* ---media queries for market places text */
+@media (min-width:200px) and (max-width:767px) {
+  .service-list-head h1 {
+    font-size: 12px !important;
+    letter-spacing: 2px;
+  }
+  .service-list-head p {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+}
+@media (min-width:768px) and (max-width:992px) {
+  .marketplace-header h1 {
+    font-size: 30px !important;
+    letter-spacing: 0px;
+  }
+  .marketplace-header p {
+    font-size: 15px !important;
   }
 }
