@@ -170,10 +170,29 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1674d1;
+  background-color: #ffffff;
   height: auto;
 }
-
+.fixed a {
+  color: #000000 !important;
+}
+.fixed .sub-menu li a {
+  color: #ffffff !important;
+}
+/* .fixed .logo img {
+ background-image: url("../images/Logos/primitive-group-black.png");
+ position: relative;
+ z-index: 99;
+} */
+.fixed .logo .white-logo {
+  display: none;
+}
+.fixed .logo .dark-logo {
+  display: block;
+}
+.fixed a:hover {
+  color: #000000 !important;
+}
 header {
   height: 105px;
   position: absolute;
@@ -910,7 +929,12 @@ img.wp-post-image {
 .logo img {
   height: 42px;
 }
-
+.logo .dark-logo {
+  display: none;
+}
+.logo .white-logo {
+  display: block;
+}
 .header01 .logo a {
   padding-top: 0;
   display: table;
@@ -2004,11 +2028,21 @@ footer.footer2 {
   margin-bottom: 10px !important;
 }
 
+/*.cta-box-gold1 {
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-image: url(../images/xplore/contact-bg.jpg);
+  background: url(../images/xplore/contact-bg-image.jpg); 
+  background: url(../images/other/contact-bg-image.png) !important;
+    text-align: center;
+}*/
 .cta-box {
   margin-bottom: 0px;
-  padding-top: 15px;
-  padding-bottom: 50px;
-  background: url(../images/other/careers.jpg);
+  padding-top: 30px;
+  padding-bottom: 25px;
+  /*background: url(../images/other/careers.jpg);*/
+  background: url(../images/other/call-to-action-bg.jpg);
   text-align: center;
 }
 
@@ -2041,6 +2075,7 @@ footer.footer2 {
   padding-bottom: 35px;
   background: url(../images/other/careers.jpg);
   /* background: url(../images/other/section04.jpg); */
+  text-align: center;
 }
 
 .contact-name p {
@@ -2063,12 +2098,7 @@ footer.footer2 {
 }
 
 
-.cta-box-gold {
-  margin-bottom: 0px;
-  padding-top: 30px;
-  padding-bottom: 25px;
-  background: url(../images/xplore/contact.jpg)
-}
+
 
 .cta-box-blue h3 {
   color: #fff;
@@ -9985,7 +10015,11 @@ home-business-info .container {
     left: 5% !important;
   }
 }
-
+@media (min-width:768px) and (max-width:992px){
+  .step-feature-alignment {
+    display: flex;
+  }
+}
 @media (min-width: 991px) and (max-width: 1200px) {
   .news-wrap {
     width: 40% !important;
@@ -13453,9 +13487,9 @@ a.eg-henryharrison-element-2 {
   padding-right: 5px;
 }
 
-.care-theme li a:hover {
+/* .care-theme li a:hover {
   color: #f5f5f5 !important;
-}
+} */
 
 .care-theme h1 {
   color: #9134a0;
@@ -13517,9 +13551,9 @@ a.eg-henryharrison-element-2 {
   margin-top: 15px;
 }
 
-.xplore-theme li a:hover {
+/* .xplore-theme li a:hover {
   color: #f5f5f5 !important;
-}
+} */
 
 .xplore-data ul li {
   list-style-type: disc;
@@ -13698,7 +13732,11 @@ a.eg-henryharrison-element-2 {
   }
 
 }
-
+@media (max-width:992px){
+  .fixed #open-left {
+    color: #000000 !important;
+  }
+}
 /* .step2 {
     display: flex;
     /* padding: 0px !important; */
@@ -13725,6 +13763,8 @@ a.eg-henryharrison-element-2 {
 .step-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
 }
 
 @media only screen and (max-width: 767px) {
