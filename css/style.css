@@ -172,6 +172,8 @@ textarea:focus {
   width: 100%;
   background-color: #ffffff;
   height: auto;
+  box-shadow: 0px 5px 5px;
+  /* transition: 2s; */
 }
 .fixed a {
   color: #000000 !important;
@@ -10064,6 +10066,7 @@ home-business-info .container {
 }
 
 @media (max-width: 768px) {
+  
 
   /* .video-footer h5 {
     margin-right:0px !important;
@@ -11736,9 +11739,24 @@ a.eg-henryharrison-element-2 {
   font-size: 20px;
 }
 
+
 /* ==========================================================================
     31. RESPONSIVE STYLES
     ========================================================================== */
+@media (min-width:768px) {
+  .partner-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .test-img2,.test-img4 img {
+    width: 220px;
+  }
+  .partner-images img {
+    margin-left: 30px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1250px) {
 
   #site-navigation .menu>ul>li>a,
@@ -12120,11 +12138,12 @@ a.eg-henryharrison-element-2 {
 }
 
 .test-img2 {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-left: 30px;
 }
 
 .test-img4 {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .image1 {
@@ -12142,10 +12161,18 @@ a.eg-henryharrison-element-2 {
   .brochure-section p {
     margin-bottom : 0px;
   }
-
+  .partner-images {
+    margin-bottom: 20px;
+  }
+  .test-img2{
+    margin-top: 15px !important;
+  }
   /* --resources-- */
   .resources.footer-widget li a:hover {
     color: #0505fa !important ;
+  }
+  .video-footer h5 {
+    padding-right: 8px;
   }
 
   /* home */
@@ -12521,9 +12548,9 @@ a.eg-henryharrison-element-2 {
     margin-top: 0px;
   }
 
-  .test-img3 {
+  /* .test-img3 {
     width: 360px !important;
-  }
+  } */
 
   .header-font-styling1 {
     letter-spacing: 5px !important;
@@ -13343,11 +13370,7 @@ a.eg-henryharrison-element-2 {
 
   /* xplore */
   .bg-image-text h4 {
-<<<<<<< HEAD
     font-size: 7px !important;
-=======
-    font-size: 8px !important;
->>>>>>> d8fc5d9961f7e5b6e27fbaba33d1988a14013580
     font-weight: 900 !important;
     
   }
@@ -13438,7 +13461,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .test-img4 {
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .showcase-font {
@@ -13942,9 +13965,9 @@ a.eg-henryharrison-element-2 {
     margin-right: 0px !important;
   }
 
-  .video-footer {
+  /* .video-footer {
     justify-content: space-between;
-  }
+  } */
 
   .video-footer h5 {
     font-size: 11px !important;
