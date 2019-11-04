@@ -1469,7 +1469,7 @@ h4.custom-head {
 }
 
 .steps-data {
-  padding: 50px 10px 41px 25px;
+  padding: 50px 10px 17px 25px;
 }
 
 .steps-data1 {
@@ -3642,7 +3642,7 @@ Start of step-features-mobile Styles
 
 .ul-dots li {
   /* list-style-type:disc; */
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .ul-dots1 {
@@ -10081,7 +10081,7 @@ home-business-info .container {
   }
 
   .text-center {
-    padding: 60px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   .logo-data {
@@ -12137,6 +12137,12 @@ a.eg-henryharrison-element-2 {
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 
+  /* home */ 
+
+  .brochure-section p {
+    margin-bottom : 0px;
+  }
+
   /* --resources-- */
   .resources.footer-widget li a:hover {
     color: #0505fa !important ;
@@ -12218,6 +12224,27 @@ a.eg-henryharrison-element-2 {
     padding: 0px;
     text-align: end;
   }
+
+  /* resources */
+
+  .resources-responsive {
+    padding: 0px;
+  }
+
+  .resources-responsive .row {
+    margin: 0px;
+  }
+
+  .resources-responsive .logo {
+    padding: 0px;
+  }
+
+  .resources-responsive .logo-icon {
+    padding: 0px;
+    text-align: end;
+  }
+
+  /* end of resources */
 
   .page-data {
     margin-bottom: 0px;
@@ -13117,6 +13144,7 @@ a.eg-henryharrison-element-2 {
 
   .client-testimonials .slick-slide img {
     /* height: 70px; */
+    margin-bottom:10px;
     width: auto;
     max-width: 100%;
   }
@@ -13313,9 +13341,14 @@ a.eg-henryharrison-element-2 {
 
   /* xplore */
   .bg-image-text h4 {
-    font-size: 10px !important;
+    font-size: 8px !important;
     font-weight: 900 !important;
     letter-spacing: 2px !important;
+  }
+
+  .bg-image-text p {
+    font-size: 7px !important;
+    margin-top: -2px !important;
   }
 
   .xplore-responsive {
@@ -13519,6 +13552,12 @@ a.eg-henryharrison-element-2 {
 .exchange-section img {
   /* max-width: 1350px; */
   width: 100%;
+}
+
+/* xplore */
+
+.plane-image1 {
+  display:none;
 }
 
 .xplore-content {
@@ -13886,9 +13925,9 @@ a.eg-henryharrison-element-2 {
 }
 
 .bg-image-text p {
-  font-size: 10px;
+  font-size: 12px;
 }
-}
+
 
 @media only screen and (max-width:380px) {
   .video-footer h5 {
@@ -14201,5 +14240,26 @@ padding: 39px 80px !important;
   }
   .marketplace-header p {
     font-size: 15px !important;
+  }
+}
+
+@media (min-width:200px) and (max-width:991px) {
+  .plane-image {
+    display: none;
+  }
+
+  .plane-image1 {
+    display: block;
+  }
+}
+
+@media (min-width:200px) and (max-width:360px) {
+  .contact-text h1 {
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
+  }
+  .contact-text {
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
   }
 }
