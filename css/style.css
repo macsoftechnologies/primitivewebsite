@@ -2079,7 +2079,9 @@ footer.footer2 {
   /* background: url(../images/other/section04.jpg); */
   text-align: center;
 }
-
+.care-bg {
+  background-image: url(../images/other/contact.jpg);
+}
 .contact-name p {
   color: white;
   font-size: 31px !important;
@@ -11738,8 +11740,10 @@ a.eg-henryharrison-element-2 {
   padding: 5px;
   font-size: 20px;
 }
-
-
+/* #video {
+  height: 100px;
+  width: 100px;
+} */
 /* ==========================================================================
     31. RESPONSIVE STYLES
     ========================================================================== */
@@ -12320,6 +12324,7 @@ a.eg-henryharrison-element-2 {
   .cta-box-blue {
     padding-top: 15px;
     padding-bottom: 15px;
+    
   }
 
   .contact-name p {

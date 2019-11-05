@@ -352,5 +352,32 @@ jQuery(document).ready(function ($) {
         }, 600);
         evt.preventDefault();
     });
+     /* ==========================================================================
+    Care Video Player
+    ========================================================================== */
+    //LightBox / Fancybox
+	if($('.lightbox-image').length) {
+		$('.lightbox-image').fancybox({
+            href: "https://www.youtube.com/watch?v=Iy92s4BPGzc",
+			openEffect  : 'fade',
+			closeEffect : 'fade',
+			helpers : {
+				media : {}
+			}
+		});
+    }
+    
+    $(".fancybox").fancybox({
+        autoScale: false,
+        // href : $('.fancybox').attr('id'), // don't need this
+        type: 'iframe',
+        padding: 0,
+        closeClick: false,
+        // other options
+        beforeLoad: function () {
+            var url = $(this.element).attr("href");
+            this.href = url;
+        }
+    }); // fancybox
 
 });
