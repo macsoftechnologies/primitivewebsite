@@ -2018,7 +2018,9 @@ footer.footer2 {
   border-color: #333;
   background-color: #333;
 }
-
+.care-back-image .cta-box {
+  background-image: url(../images/other/contact.jpg);
+}
 /* ==========================================================================
     8. CALL TO ACTION
     ========================================================================== */
@@ -2079,8 +2081,14 @@ footer.footer2 {
   /* background: url(../images/other/section04.jpg); */
   text-align: center;
 }
-.care-bg {
-  background-image: url(../images/other/contact.jpg);
+.care .care-bg {
+  background-image: url(../images/Care-images/bg.jpg);
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  /* background: url(../images/other/careers.jpg); */
+  /* background: url(../images/other/section04.jpg); */
+  text-align: center;
 }
 .contact-name p {
   color: white;
@@ -13451,7 +13459,7 @@ a.eg-henryharrison-element-2 {
   .xplore-btn {
     font-weight: 700;
     font-size: 14px !important;
-    color: #66336e !important;
+    color: #d09a07 !important;
   }
 
 }
@@ -13649,7 +13657,7 @@ a.eg-henryharrison-element-2 {
 .xplore-btn {
   font-weight: 700;
   font-size: 21px;
-  color: #66336e !important;
+  color: #d09a07 !important;
 }
 
 .xplore-theme h4 {
@@ -14009,7 +14017,7 @@ a.eg-henryharrison-element-2 {
 .market-btn {
   font-weight: 700;
   font-size: 21px;
-  color: #9134a0 !important;
+  color: #1864ae !important;
 }
 
 .marketplaces-cart {
