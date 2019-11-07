@@ -9482,7 +9482,9 @@ Contact Form
   /* padding-bottom: 80px !important; */
   background-image: url(../images/other/home06-section01.png) !important;
 }
-
+.step-icons i {
+  font-size: 50px;
+}
 .step-features-inner {
   width: 100%;
   height: 100%;
