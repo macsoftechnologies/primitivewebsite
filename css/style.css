@@ -9477,6 +9477,7 @@ Contact Form
 }
 
 .step-features {
+  height: 800px;
   /* padding-top: 80px !important; */
   /* padding-bottom: 80px !important; */
   background-image: url(../images/other/home06-section01.png) !important;
@@ -10172,7 +10173,7 @@ home-business-info .container {
 }
 
 .slider-content {
-  background: #222;
+  /* background: #222; */
 }
 
 .home-corporate-services {
